@@ -1,0 +1,2584 @@
+{
+  "meta": {
+    "partido": "Costa Rica 4-0 San Cristóbal y Nieves",
+    "fecha_local": "2024-06-06",
+    "fuentes_principales": [
+      "FIFA Live API v3 (BallPossession oficial: 65.3% vs 34.7%)",
+      "FotMob match 4416441 / proveedor Opta (estadísticas totales, 1T, 2T e individuales)"
+    ],
+    "nota_sofascore_fbref": "Sofascore y FBref bloquean acceso programático (HTTP 403) en esta fecha de verificación; toda la estadística de equipo e individual está verificada vía FIFA API y FotMob (Opta) con paridad matemática exacta."
+  },
+  "metricas_no_disponibles": {
+    "estado": "no_disponible",
+    "campos": [
+      "xg_goles_esperados",
+      "xa_asistencias_esperadas",
+      "distancia_recorrida_km",
+      "velocidad_maxima_kmh_y_sprints",
+      "mapas_de_calor_y_tracking_25fps",
+      "redes_de_pases_matriz_jugador_a_jugador",
+      "ppda_intensidad_presion",
+      "coordenadas_shotmap_de_todos_los_remates",
+      "corte_1t_2t_de_recuperaciones_por_equipo"
+    ],
+    "motivo": "El feed de FotMob para este encuentro tiene shotmap vacío y no publica xG ni mapas de calor; la FIFA API no publica tracking EPTS ni estadísticas agregadas de equipo fuera de posesión total."
+  },
+  "estadisticas_equipo": {
+    "total": {
+      "estado": "confirmado",
+      "posesion_fotmob_pct": {
+        "costa_rica": 65,
+        "san_cristobal_y_nieves": 35
+      },
+      "tiros_totales": {
+        "costa_rica": 23,
+        "san_cristobal_y_nieves": 5
+      },
+      "tiros_a_puerta": {
+        "costa_rica": 7,
+        "san_cristobal_y_nieves": 1
+      },
+      "tiros_fuera": {
+        "costa_rica": 8,
+        "san_cristobal_y_nieves": 3
+      },
+      "tiros_bloqueados": {
+        "costa_rica": 8,
+        "san_cristobal_y_nieves": 1
+      },
+      "tiros_al_poste": {
+        "costa_rica": 2,
+        "san_cristobal_y_nieves": 0
+      },
+      "tiros_dentro_area": {
+        "costa_rica": 10,
+        "san_cristobal_y_nieves": 1
+      },
+      "tiros_fuera_area": {
+        "costa_rica": 13,
+        "san_cristobal_y_nieves": 4
+      },
+      "grandes_ocasiones": {
+        "costa_rica": 5,
+        "san_cristobal_y_nieves": 0
+      },
+      "grandes_ocasiones_falladas": {
+        "costa_rica": 2,
+        "san_cristobal_y_nieves": 0
+      },
+      "toques_area_rival": {
+        "costa_rica": 29,
+        "san_cristobal_y_nieves": 7
+      },
+      "pases_intentados": {
+        "costa_rica": 571,
+        "san_cristobal_y_nieves": 300
+      },
+      "pases_precisos": {
+        "costa_rica": 483,
+        "san_cristobal_y_nieves": 221
+      },
+      "precision_pases_pct": {
+        "costa_rica": 85,
+        "san_cristobal_y_nieves": 74
+      },
+      "pases_precisos_campo_propio": {
+        "costa_rica": 244,
+        "san_cristobal_y_nieves": 116
+      },
+      "pases_precisos_campo_rival": {
+        "costa_rica": 239,
+        "san_cristobal_y_nieves": 105
+      },
+      "balones_largos_precisos": {
+        "costa_rica": 14,
+        "san_cristobal_y_nieves": 24
+      },
+      "balones_largos_pct": {
+        "costa_rica": 33,
+        "san_cristobal_y_nieves": 39
+      },
+      "centros_precisos": {
+        "costa_rica": 6,
+        "san_cristobal_y_nieves": 2
+      },
+      "centros_pct": {
+        "costa_rica": 32,
+        "san_cristobal_y_nieves": 17
+      },
+      "saques_de_banda": {
+        "costa_rica": 19,
+        "san_cristobal_y_nieves": 15
+      },
+      "tiros_de_esquina": {
+        "costa_rica": 5,
+        "san_cristobal_y_nieves": 3
+      },
+      "fueras_de_juego": {
+        "costa_rica": 2,
+        "san_cristobal_y_nieves": 3
+      },
+      "atajadas": {
+        "costa_rica": 1,
+        "san_cristobal_y_nieves": 3
+      },
+      "entradas_tackles": {
+        "costa_rica": 20,
+        "san_cristobal_y_nieves": 10
+      },
+      "intercepciones": {
+        "costa_rica": 7,
+        "san_cristobal_y_nieves": 14
+      },
+      "bloqueos_defensivos": {
+        "costa_rica": 1,
+        "san_cristobal_y_nieves": 6
+      },
+      "despejes": {
+        "costa_rica": 9,
+        "san_cristobal_y_nieves": 19
+      },
+      "duelos_ganados": {
+        "costa_rica": 57,
+        "san_cristobal_y_nieves": 38
+      },
+      "duelos_suelo_ganados": {
+        "costa_rica": 37,
+        "san_cristobal_y_nieves": 28
+      },
+      "duelos_suelo_pct": {
+        "costa_rica": 57,
+        "san_cristobal_y_nieves": 43
+      },
+      "duelos_aereos_ganados": {
+        "costa_rica": 20,
+        "san_cristobal_y_nieves": 10
+      },
+      "duelos_aereos_pct": {
+        "costa_rica": 67,
+        "san_cristobal_y_nieves": 33
+      },
+      "regates_exitosos": {
+        "costa_rica": 4,
+        "san_cristobal_y_nieves": 9
+      },
+      "regates_pct": {
+        "costa_rica": 44,
+        "san_cristobal_y_nieves": 41
+      },
+      "faltas_cometidas": {
+        "costa_rica": 11,
+        "san_cristobal_y_nieves": 13
+      },
+      "tarjetas_amarillas": {
+        "costa_rica": 1,
+        "san_cristobal_y_nieves": 3
+      },
+      "tarjetas_rojas": {
+        "costa_rica": 0,
+        "san_cristobal_y_nieves": 0
+      },
+      "posesion_fifa_oficial_pct": {
+        "costa_rica": 65.3,
+        "san_cristobal_y_nieves": 34.7
+      },
+      "recuperaciones_totales_suma_jugadores": {
+        "costa_rica": 62,
+        "san_cristobal_y_nieves": 59,
+        "solo_jugadores_campo": {
+          "costa_rica": 57,
+          "san_cristobal_y_nieves": 52
+        },
+        "porteros": {
+          "costa_rica": 5,
+          "san_cristobal_y_nieves": 7
+        },
+        "nota": "Suma verificada de 'Recoveries' individuales de FotMob (campo: 57 CRC / 52 SKN; porteros: 5 Sequeira / 7 Archibald); no existe corte separado 1T/2T publicado para recuperaciones."
+      }
+    },
+    "primer_tiempo": {
+      "estado": "confirmado",
+      "posesion_fotmob_pct": {
+        "costa_rica": 68,
+        "san_cristobal_y_nieves": 32
+      },
+      "tiros_totales": {
+        "costa_rica": 10,
+        "san_cristobal_y_nieves": 3
+      },
+      "tiros_a_puerta": {
+        "costa_rica": 2,
+        "san_cristobal_y_nieves": 0
+      },
+      "tiros_fuera": {
+        "costa_rica": 4,
+        "san_cristobal_y_nieves": 2
+      },
+      "tiros_bloqueados": {
+        "costa_rica": 4,
+        "san_cristobal_y_nieves": 1
+      },
+      "tiros_al_poste": {
+        "costa_rica": 1,
+        "san_cristobal_y_nieves": 0
+      },
+      "tiros_dentro_area": {
+        "costa_rica": 3,
+        "san_cristobal_y_nieves": 1
+      },
+      "tiros_fuera_area": {
+        "costa_rica": 7,
+        "san_cristobal_y_nieves": 2
+      },
+      "grandes_ocasiones": {
+        "costa_rica": 1,
+        "san_cristobal_y_nieves": 0
+      },
+      "grandes_ocasiones_falladas": {
+        "costa_rica": 0,
+        "san_cristobal_y_nieves": 0
+      },
+      "toques_area_rival": {
+        "costa_rica": 11,
+        "san_cristobal_y_nieves": 4
+      },
+      "pases_intentados": {
+        "costa_rica": 282,
+        "san_cristobal_y_nieves": 134
+      },
+      "pases_precisos": {
+        "costa_rica": 229,
+        "san_cristobal_y_nieves": 87
+      },
+      "precision_pases_pct": {
+        "costa_rica": 81,
+        "san_cristobal_y_nieves": 65
+      },
+      "pases_precisos_campo_propio": {
+        "costa_rica": 129,
+        "san_cristobal_y_nieves": 56
+      },
+      "pases_precisos_campo_rival": {
+        "costa_rica": 100,
+        "san_cristobal_y_nieves": 31
+      },
+      "balones_largos_precisos": {
+        "costa_rica": 7,
+        "san_cristobal_y_nieves": 9
+      },
+      "balones_largos_pct": {
+        "costa_rica": 26,
+        "san_cristobal_y_nieves": 25
+      },
+      "centros_precisos": {
+        "costa_rica": 4,
+        "san_cristobal_y_nieves": 1
+      },
+      "centros_pct": {
+        "costa_rica": 29,
+        "san_cristobal_y_nieves": 20
+      },
+      "saques_de_banda": {
+        "costa_rica": 11,
+        "san_cristobal_y_nieves": 8
+      },
+      "tiros_de_esquina": {
+        "costa_rica": 3,
+        "san_cristobal_y_nieves": 2
+      },
+      "fueras_de_juego": {
+        "costa_rica": 0,
+        "san_cristobal_y_nieves": 2
+      },
+      "atajadas": {
+        "costa_rica": 0,
+        "san_cristobal_y_nieves": 1
+      },
+      "entradas_tackles": {
+        "costa_rica": 5,
+        "san_cristobal_y_nieves": 3
+      },
+      "intercepciones": {
+        "costa_rica": 2,
+        "san_cristobal_y_nieves": 6
+      },
+      "bloqueos_defensivos": {
+        "costa_rica": 1,
+        "san_cristobal_y_nieves": 3
+      },
+      "despejes": {
+        "costa_rica": 5,
+        "san_cristobal_y_nieves": 12
+      },
+      "duelos_ganados": {
+        "costa_rica": 30,
+        "san_cristobal_y_nieves": 18
+      },
+      "duelos_suelo_ganados": {
+        "costa_rica": 16,
+        "san_cristobal_y_nieves": 10
+      },
+      "duelos_suelo_pct": {
+        "costa_rica": 62,
+        "san_cristobal_y_nieves": 38
+      },
+      "duelos_aereos_ganados": {
+        "costa_rica": 14,
+        "san_cristobal_y_nieves": 8
+      },
+      "duelos_aereos_pct": {
+        "costa_rica": 64,
+        "san_cristobal_y_nieves": 36
+      },
+      "regates_exitosos": {
+        "costa_rica": 4,
+        "san_cristobal_y_nieves": 4
+      },
+      "regates_pct": {
+        "costa_rica": 80,
+        "san_cristobal_y_nieves": 50
+      },
+      "faltas_cometidas": {
+        "costa_rica": 4,
+        "san_cristobal_y_nieves": 7
+      },
+      "tarjetas_amarillas": {
+        "costa_rica": 0,
+        "san_cristobal_y_nieves": 2
+      },
+      "tarjetas_rojas": {
+        "costa_rica": 0,
+        "san_cristobal_y_nieves": 0
+      }
+    },
+    "segundo_tiempo": {
+      "estado": "confirmado",
+      "posesion_fotmob_pct": {
+        "costa_rica": 63,
+        "san_cristobal_y_nieves": 37
+      },
+      "tiros_totales": {
+        "costa_rica": 13,
+        "san_cristobal_y_nieves": 2
+      },
+      "tiros_a_puerta": {
+        "costa_rica": 5,
+        "san_cristobal_y_nieves": 1
+      },
+      "tiros_fuera": {
+        "costa_rica": 4,
+        "san_cristobal_y_nieves": 1
+      },
+      "tiros_bloqueados": {
+        "costa_rica": 4,
+        "san_cristobal_y_nieves": 0
+      },
+      "tiros_al_poste": {
+        "costa_rica": 1,
+        "san_cristobal_y_nieves": 0
+      },
+      "tiros_dentro_area": {
+        "costa_rica": 7,
+        "san_cristobal_y_nieves": 0
+      },
+      "tiros_fuera_area": {
+        "costa_rica": 6,
+        "san_cristobal_y_nieves": 2
+      },
+      "grandes_ocasiones": {
+        "costa_rica": 4,
+        "san_cristobal_y_nieves": 0
+      },
+      "grandes_ocasiones_falladas": {
+        "costa_rica": 2,
+        "san_cristobal_y_nieves": 0
+      },
+      "toques_area_rival": {
+        "costa_rica": 18,
+        "san_cristobal_y_nieves": 3
+      },
+      "pases_intentados": {
+        "costa_rica": 289,
+        "san_cristobal_y_nieves": 166
+      },
+      "pases_precisos": {
+        "costa_rica": 254,
+        "san_cristobal_y_nieves": 134
+      },
+      "precision_pases_pct": {
+        "costa_rica": 88,
+        "san_cristobal_y_nieves": 81
+      },
+      "pases_precisos_campo_propio": {
+        "costa_rica": 115,
+        "san_cristobal_y_nieves": 60
+      },
+      "pases_precisos_campo_rival": {
+        "costa_rica": 139,
+        "san_cristobal_y_nieves": 74
+      },
+      "balones_largos_precisos": {
+        "costa_rica": 7,
+        "san_cristobal_y_nieves": 15
+      },
+      "balones_largos_pct": {
+        "costa_rica": 47,
+        "san_cristobal_y_nieves": 58
+      },
+      "centros_precisos": {
+        "costa_rica": 2,
+        "san_cristobal_y_nieves": 1
+      },
+      "centros_pct": {
+        "costa_rica": 40,
+        "san_cristobal_y_nieves": 14
+      },
+      "saques_de_banda": {
+        "costa_rica": 8,
+        "san_cristobal_y_nieves": 7
+      },
+      "tiros_de_esquina": {
+        "costa_rica": 2,
+        "san_cristobal_y_nieves": 1
+      },
+      "fueras_de_juego": {
+        "costa_rica": 2,
+        "san_cristobal_y_nieves": 1
+      },
+      "atajadas": {
+        "costa_rica": 1,
+        "san_cristobal_y_nieves": 2
+      },
+      "entradas_tackles": {
+        "costa_rica": 15,
+        "san_cristobal_y_nieves": 7
+      },
+      "intercepciones": {
+        "costa_rica": 5,
+        "san_cristobal_y_nieves": 8
+      },
+      "bloqueos_defensivos": {
+        "costa_rica": 0,
+        "san_cristobal_y_nieves": 3
+      },
+      "despejes": {
+        "costa_rica": 4,
+        "san_cristobal_y_nieves": 7
+      },
+      "duelos_ganados": {
+        "costa_rica": 27,
+        "san_cristobal_y_nieves": 20
+      },
+      "duelos_suelo_ganados": {
+        "costa_rica": 21,
+        "san_cristobal_y_nieves": 18
+      },
+      "duelos_suelo_pct": {
+        "costa_rica": 54,
+        "san_cristobal_y_nieves": 46
+      },
+      "duelos_aereos_ganados": {
+        "costa_rica": 6,
+        "san_cristobal_y_nieves": 2
+      },
+      "duelos_aereos_pct": {
+        "costa_rica": 75,
+        "san_cristobal_y_nieves": 25
+      },
+      "regates_exitosos": {
+        "costa_rica": 0,
+        "san_cristobal_y_nieves": 5
+      },
+      "regates_pct": {
+        "costa_rica": 0,
+        "san_cristobal_y_nieves": 36
+      },
+      "faltas_cometidas": {
+        "costa_rica": 7,
+        "san_cristobal_y_nieves": 6
+      },
+      "tarjetas_amarillas": {
+        "costa_rica": 1,
+        "san_cristobal_y_nieves": 1
+      },
+      "tarjetas_rojas": {
+        "costa_rica": 0,
+        "san_cristobal_y_nieves": 0
+      }
+    }
+  },
+  "estadisticas_jugadores": {
+    "estado": "confirmado",
+    "fuente": "FotMob / Opta (46 convocados, 32 con minutos en cancha)",
+    "costa_rica": [
+      {
+        "dorsal": 3,
+        "nombre": "Jeyland Mitchell",
+        "posicion_linea": "DEF",
+        "titular": true,
+        "es_portero": false,
+        "participo": true,
+        "minutos_jugados": 90,
+        "rating_fotmob": 7.4,
+        "estado": "confirmado",
+        "goles": 0,
+        "asistencias": 0,
+        "tiros_totales": 1,
+        "tiros_a_puerta": 0,
+        "tiros_fuera": 0,
+        "tiros_bloqueados": 1,
+        "tiros_al_poste": 0,
+        "ocasiones_creadas": 0,
+        "grandes_ocasiones_creadas": 0,
+        "grandes_ocasiones_falladas": 0,
+        "toques": 56,
+        "toques_area_rival": 2,
+        "pases_precisos": 38,
+        "pases_intentados": 43,
+        "pases_ultimo_tercio": 2,
+        "centros": {
+          "acertados": 0,
+          "intentados": 0
+        },
+        "balones_largos": {
+          "acertados": 2,
+          "intentados": 4
+        },
+        "tiros_de_esquina_cobrados": 0,
+        "regates": {
+          "acertados": 0,
+          "intentados": 0
+        },
+        "desposesiones": 0,
+        "fueras_de_juego": 0,
+        "acciones_defensivas": 6,
+        "entradas_tackles": 5,
+        "intercepciones": 0,
+        "bloqueos_defensivos": 0,
+        "despejes": 1,
+        "despejes_cabeza": 0,
+        "recuperaciones": 1,
+        "regates_sufridos": 1,
+        "duelos_ganados": 7,
+        "duelos_perdidos": 3,
+        "duelos_suelo": {
+          "acertados": 6,
+          "intentados": 7
+        },
+        "duelos_aereos": {
+          "acertados": 1,
+          "intentados": 3
+        },
+        "faltas_cometidas": 0,
+        "faltas_recibidas": 1
+      },
+      {
+        "dorsal": 6,
+        "nombre": "Julio Cascante",
+        "posicion_linea": "DEF",
+        "titular": true,
+        "es_portero": false,
+        "participo": true,
+        "minutos_jugados": 90,
+        "rating_fotmob": 7.2,
+        "estado": "confirmado",
+        "goles": 0,
+        "asistencias": 0,
+        "tiros_totales": 0,
+        "tiros_a_puerta": 0,
+        "tiros_fuera": 0,
+        "tiros_bloqueados": 0,
+        "tiros_al_poste": 0,
+        "ocasiones_creadas": 0,
+        "grandes_ocasiones_creadas": 0,
+        "grandes_ocasiones_falladas": 0,
+        "toques": 77,
+        "toques_area_rival": 1,
+        "pases_precisos": 63,
+        "pases_intentados": 68,
+        "pases_ultimo_tercio": 3,
+        "centros": {
+          "acertados": 0,
+          "intentados": 1
+        },
+        "balones_largos": {
+          "acertados": 2,
+          "intentados": 3
+        },
+        "tiros_de_esquina_cobrados": 0,
+        "regates": {
+          "acertados": 0,
+          "intentados": 1
+        },
+        "desposesiones": 0,
+        "fueras_de_juego": 0,
+        "acciones_defensivas": 5,
+        "entradas_tackles": 0,
+        "intercepciones": 1,
+        "bloqueos_defensivos": 0,
+        "despejes": 4,
+        "despejes_cabeza": 2,
+        "recuperaciones": 3,
+        "regates_sufridos": 1,
+        "duelos_ganados": 9,
+        "duelos_perdidos": 5,
+        "duelos_suelo": {
+          "acertados": 0,
+          "intentados": 3
+        },
+        "duelos_aereos": {
+          "acertados": 9,
+          "intentados": 11
+        },
+        "faltas_cometidas": 2,
+        "faltas_recibidas": 0
+      },
+      {
+        "dorsal": 9,
+        "nombre": "Manfred Ugalde",
+        "posicion_linea": "DEL",
+        "titular": true,
+        "es_portero": false,
+        "participo": true,
+        "minutos_jugados": 81,
+        "rating_fotmob": 8.24,
+        "estado": "confirmado",
+        "goles": 0,
+        "asistencias": 1,
+        "tiros_totales": 3,
+        "tiros_a_puerta": 1,
+        "tiros_fuera": 1,
+        "tiros_bloqueados": 1,
+        "tiros_al_poste": 1,
+        "ocasiones_creadas": 3,
+        "grandes_ocasiones_creadas": 1,
+        "grandes_ocasiones_falladas": 0,
+        "toques": 53,
+        "toques_area_rival": 4,
+        "pases_precisos": 35,
+        "pases_intentados": 39,
+        "pases_ultimo_tercio": 3,
+        "centros": {
+          "acertados": 0,
+          "intentados": 0
+        },
+        "balones_largos": {
+          "acertados": 1,
+          "intentados": 1
+        },
+        "tiros_de_esquina_cobrados": 0,
+        "regates": {
+          "acertados": 1,
+          "intentados": 1
+        },
+        "desposesiones": 2,
+        "fueras_de_juego": 0,
+        "acciones_defensivas": 0,
+        "entradas_tackles": 0,
+        "intercepciones": 0,
+        "bloqueos_defensivos": 0,
+        "despejes": 0,
+        "despejes_cabeza": 0,
+        "recuperaciones": 6,
+        "regates_sufridos": 1,
+        "duelos_ganados": 1,
+        "duelos_perdidos": 5,
+        "duelos_suelo": {
+          "acertados": 1,
+          "intentados": 6
+        },
+        "duelos_aereos": {
+          "acertados": 0,
+          "intentados": 0
+        },
+        "faltas_cometidas": 2,
+        "faltas_recibidas": 0
+      },
+      {
+        "dorsal": 11,
+        "nombre": "Ariel Lassiter",
+        "posicion_linea": "MED",
+        "titular": true,
+        "es_portero": false,
+        "participo": true,
+        "minutos_jugados": 90,
+        "rating_fotmob": 7.4,
+        "estado": "confirmado",
+        "goles": 0,
+        "asistencias": 0,
+        "tiros_totales": 1,
+        "tiros_a_puerta": 0,
+        "tiros_fuera": 0,
+        "tiros_bloqueados": 1,
+        "tiros_al_poste": 0,
+        "ocasiones_creadas": 1,
+        "grandes_ocasiones_creadas": 0,
+        "grandes_ocasiones_falladas": 0,
+        "toques": 44,
+        "toques_area_rival": 2,
+        "pases_precisos": 24,
+        "pases_intentados": 28,
+        "pases_ultimo_tercio": 3,
+        "centros": {
+          "acertados": 2,
+          "intentados": 6
+        },
+        "balones_largos": {
+          "acertados": 0,
+          "intentados": 0
+        },
+        "tiros_de_esquina_cobrados": 2,
+        "regates": {
+          "acertados": 2,
+          "intentados": 2
+        },
+        "desposesiones": 0,
+        "fueras_de_juego": 0,
+        "acciones_defensivas": 0,
+        "entradas_tackles": 0,
+        "intercepciones": 0,
+        "bloqueos_defensivos": 0,
+        "despejes": 0,
+        "despejes_cabeza": 0,
+        "recuperaciones": 3,
+        "regates_sufridos": 0,
+        "duelos_ganados": 4,
+        "duelos_perdidos": 0,
+        "duelos_suelo": {
+          "acertados": 4,
+          "intentados": 4
+        },
+        "duelos_aereos": {
+          "acertados": 0,
+          "intentados": 0
+        },
+        "faltas_cometidas": 0,
+        "faltas_recibidas": 2
+      },
+      {
+        "dorsal": 13,
+        "nombre": "Jefferson Brenes",
+        "posicion_linea": "MED",
+        "titular": true,
+        "es_portero": false,
+        "participo": true,
+        "minutos_jugados": 64,
+        "rating_fotmob": 7.77,
+        "estado": "confirmado",
+        "goles": 0,
+        "asistencias": 1,
+        "tiros_totales": 2,
+        "tiros_a_puerta": 0,
+        "tiros_fuera": 2,
+        "tiros_bloqueados": 0,
+        "tiros_al_poste": 0,
+        "ocasiones_creadas": 1,
+        "grandes_ocasiones_creadas": 1,
+        "grandes_ocasiones_falladas": 0,
+        "toques": 55,
+        "toques_area_rival": 0,
+        "pases_precisos": 31,
+        "pases_intentados": 46,
+        "pases_ultimo_tercio": 14,
+        "centros": {
+          "acertados": 1,
+          "intentados": 1
+        },
+        "balones_largos": {
+          "acertados": 1,
+          "intentados": 8
+        },
+        "tiros_de_esquina_cobrados": 1,
+        "regates": {
+          "acertados": 0,
+          "intentados": 0
+        },
+        "desposesiones": 0,
+        "fueras_de_juego": 0,
+        "acciones_defensivas": 1,
+        "entradas_tackles": 0,
+        "intercepciones": 1,
+        "bloqueos_defensivos": 0,
+        "despejes": 0,
+        "despejes_cabeza": 0,
+        "recuperaciones": 5,
+        "regates_sufridos": 0,
+        "duelos_ganados": 3,
+        "duelos_perdidos": 0,
+        "duelos_suelo": {
+          "acertados": 1,
+          "intentados": 1
+        },
+        "duelos_aereos": {
+          "acertados": 2,
+          "intentados": 2
+        },
+        "faltas_cometidas": 0,
+        "faltas_recibidas": 1
+      },
+      {
+        "dorsal": 14,
+        "nombre": "Orlando Galo",
+        "posicion_linea": "MED",
+        "titular": true,
+        "es_portero": false,
+        "participo": true,
+        "minutos_jugados": 90,
+        "rating_fotmob": 9.17,
+        "estado": "confirmado",
+        "goles": 2,
+        "asistencias": 0,
+        "tiros_totales": 5,
+        "tiros_a_puerta": 3,
+        "tiros_fuera": 0,
+        "tiros_bloqueados": 2,
+        "tiros_al_poste": 0,
+        "ocasiones_creadas": 0,
+        "grandes_ocasiones_creadas": 0,
+        "grandes_ocasiones_falladas": 1,
+        "toques": 78,
+        "toques_area_rival": 3,
+        "pases_precisos": 51,
+        "pases_intentados": 60,
+        "pases_ultimo_tercio": 8,
+        "centros": {
+          "acertados": 0,
+          "intentados": 1
+        },
+        "balones_largos": {
+          "acertados": 2,
+          "intentados": 7
+        },
+        "tiros_de_esquina_cobrados": 0,
+        "regates": {
+          "acertados": 0,
+          "intentados": 0
+        },
+        "desposesiones": 1,
+        "fueras_de_juego": 0,
+        "acciones_defensivas": 5,
+        "entradas_tackles": 3,
+        "intercepciones": 1,
+        "bloqueos_defensivos": 1,
+        "despejes": 0,
+        "despejes_cabeza": 0,
+        "recuperaciones": 8,
+        "regates_sufridos": 1,
+        "duelos_ganados": 8,
+        "duelos_perdidos": 3,
+        "duelos_suelo": {
+          "acertados": 7,
+          "intentados": 10
+        },
+        "duelos_aereos": {
+          "acertados": 1,
+          "intentados": 1
+        },
+        "faltas_cometidas": 1,
+        "faltas_recibidas": 4
+      },
+      {
+        "dorsal": 15,
+        "nombre": "Francisco Calvo",
+        "posicion_linea": "DEF",
+        "titular": true,
+        "es_portero": false,
+        "participo": true,
+        "minutos_jugados": 90,
+        "rating_fotmob": 8.04,
+        "estado": "confirmado",
+        "goles": 0,
+        "asistencias": 0,
+        "tiros_totales": 2,
+        "tiros_a_puerta": 0,
+        "tiros_fuera": 2,
+        "tiros_bloqueados": 0,
+        "tiros_al_poste": 1,
+        "ocasiones_creadas": 0,
+        "grandes_ocasiones_creadas": 0,
+        "grandes_ocasiones_falladas": 0,
+        "toques": 101,
+        "toques_area_rival": 1,
+        "pases_precisos": 74,
+        "pases_intentados": 87,
+        "pases_ultimo_tercio": 11,
+        "centros": {
+          "acertados": 0,
+          "intentados": 1
+        },
+        "balones_largos": {
+          "acertados": 4,
+          "intentados": 10
+        },
+        "tiros_de_esquina_cobrados": 0,
+        "regates": {
+          "acertados": 1,
+          "intentados": 2
+        },
+        "desposesiones": 0,
+        "fueras_de_juego": 0,
+        "acciones_defensivas": 2,
+        "entradas_tackles": 2,
+        "intercepciones": 0,
+        "bloqueos_defensivos": 0,
+        "despejes": 0,
+        "despejes_cabeza": 0,
+        "recuperaciones": 9,
+        "regates_sufridos": 0,
+        "duelos_ganados": 9,
+        "duelos_perdidos": 5,
+        "duelos_suelo": {
+          "acertados": 4,
+          "intentados": 7
+        },
+        "duelos_aereos": {
+          "acertados": 5,
+          "intentados": 7
+        },
+        "faltas_cometidas": 3,
+        "faltas_recibidas": 1
+      },
+      {
+        "dorsal": 17,
+        "nombre": "Warren Madrigal",
+        "posicion_linea": "DEL",
+        "titular": true,
+        "es_portero": false,
+        "participo": true,
+        "minutos_jugados": 65,
+        "rating_fotmob": 6.64,
+        "estado": "confirmado",
+        "goles": 0,
+        "asistencias": 0,
+        "tiros_totales": 1,
+        "tiros_a_puerta": 0,
+        "tiros_fuera": 0,
+        "tiros_bloqueados": 1,
+        "tiros_al_poste": 0,
+        "ocasiones_creadas": 2,
+        "grandes_ocasiones_creadas": 0,
+        "grandes_ocasiones_falladas": 0,
+        "toques": 23,
+        "toques_area_rival": 3,
+        "pases_precisos": 13,
+        "pases_intentados": 17,
+        "pases_ultimo_tercio": 0,
+        "centros": {
+          "acertados": 0,
+          "intentados": 0
+        },
+        "balones_largos": {
+          "acertados": 0,
+          "intentados": 0
+        },
+        "tiros_de_esquina_cobrados": 0,
+        "regates": {
+          "acertados": 0,
+          "intentados": 0
+        },
+        "desposesiones": 1,
+        "fueras_de_juego": 2,
+        "acciones_defensivas": 0,
+        "entradas_tackles": 0,
+        "intercepciones": 0,
+        "bloqueos_defensivos": 0,
+        "despejes": 0,
+        "despejes_cabeza": 0,
+        "recuperaciones": 3,
+        "regates_sufridos": 1,
+        "duelos_ganados": 2,
+        "duelos_perdidos": 4,
+        "duelos_suelo": {
+          "acertados": 2,
+          "intentados": 4
+        },
+        "duelos_aereos": {
+          "acertados": 0,
+          "intentados": 2
+        },
+        "faltas_cometidas": 0,
+        "faltas_recibidas": 2
+      },
+      {
+        "dorsal": 21,
+        "nombre": "Álvaro Zamora",
+        "posicion_linea": "DEL",
+        "titular": true,
+        "es_portero": false,
+        "participo": true,
+        "minutos_jugados": 78,
+        "rating_fotmob": 8.12,
+        "estado": "confirmado",
+        "goles": 0,
+        "asistencias": 0,
+        "tiros_totales": 4,
+        "tiros_a_puerta": 1,
+        "tiros_fuera": 2,
+        "tiros_bloqueados": 1,
+        "tiros_al_poste": 0,
+        "ocasiones_creadas": 4,
+        "grandes_ocasiones_creadas": 0,
+        "grandes_ocasiones_falladas": 1,
+        "toques": 63,
+        "toques_area_rival": 4,
+        "pases_precisos": 38,
+        "pases_intentados": 49,
+        "pases_ultimo_tercio": 11,
+        "centros": {
+          "acertados": 0,
+          "intentados": 1
+        },
+        "balones_largos": {
+          "acertados": 0,
+          "intentados": 2
+        },
+        "tiros_de_esquina_cobrados": 0,
+        "regates": {
+          "acertados": 0,
+          "intentados": 0
+        },
+        "desposesiones": 0,
+        "fueras_de_juego": 0,
+        "acciones_defensivas": 3,
+        "entradas_tackles": 2,
+        "intercepciones": 1,
+        "bloqueos_defensivos": 0,
+        "despejes": 0,
+        "despejes_cabeza": 0,
+        "recuperaciones": 7,
+        "regates_sufridos": 1,
+        "duelos_ganados": 5,
+        "duelos_perdidos": 1,
+        "duelos_suelo": {
+          "acertados": 4,
+          "intentados": 5
+        },
+        "duelos_aereos": {
+          "acertados": 1,
+          "intentados": 1
+        },
+        "faltas_cometidas": 0,
+        "faltas_recibidas": 2
+      },
+      {
+        "dorsal": 22,
+        "nombre": "Haxzel Quirós",
+        "posicion_linea": "MED",
+        "titular": true,
+        "es_portero": false,
+        "participo": true,
+        "minutos_jugados": 78,
+        "rating_fotmob": 7.2,
+        "estado": "confirmado",
+        "goles": 0,
+        "asistencias": 0,
+        "tiros_totales": 0,
+        "tiros_a_puerta": 0,
+        "tiros_fuera": 0,
+        "tiros_bloqueados": 0,
+        "tiros_al_poste": 0,
+        "ocasiones_creadas": 2,
+        "grandes_ocasiones_creadas": 0,
+        "grandes_ocasiones_falladas": 0,
+        "toques": 50,
+        "toques_area_rival": 2,
+        "pases_precisos": 18,
+        "pases_intentados": 24,
+        "pases_ultimo_tercio": 4,
+        "centros": {
+          "acertados": 1,
+          "intentados": 4
+        },
+        "balones_largos": {
+          "acertados": 0,
+          "intentados": 1
+        },
+        "tiros_de_esquina_cobrados": 0,
+        "regates": {
+          "acertados": 0,
+          "intentados": 1
+        },
+        "desposesiones": 1,
+        "fueras_de_juego": 0,
+        "acciones_defensivas": 5,
+        "entradas_tackles": 1,
+        "intercepciones": 2,
+        "bloqueos_defensivos": 0,
+        "despejes": 2,
+        "despejes_cabeza": 1,
+        "recuperaciones": 2,
+        "regates_sufridos": 0,
+        "duelos_ganados": 2,
+        "duelos_perdidos": 3,
+        "duelos_suelo": {
+          "acertados": 1,
+          "intentados": 4
+        },
+        "duelos_aereos": {
+          "acertados": 1,
+          "intentados": 1
+        },
+        "faltas_cometidas": 1,
+        "faltas_recibidas": 0
+      },
+      {
+        "dorsal": 23,
+        "nombre": "Patrick Sequeira",
+        "posicion_linea": "POR",
+        "titular": true,
+        "es_portero": true,
+        "participo": true,
+        "minutos_jugados": 90,
+        "rating_fotmob": 7.03,
+        "estado": "confirmado",
+        "atajadas": 1,
+        "atajadas_dentro_area": 0,
+        "estiradas_diving_save": 1,
+        "despejes_punos": 0,
+        "centros_descolgados": 0,
+        "saques_con_mano": 2,
+        "salidas_libero": 0,
+        "goles_concedidos": 0,
+        "error_derivado_en_gol": 0,
+        "toques": 21,
+        "pases_precisos": 15,
+        "pases_intentados": 17,
+        "pases_ultimo_tercio": 0,
+        "balones_largos": {
+          "acertados": 0,
+          "intentados": 2
+        },
+        "recuperaciones": 5,
+        "despejes": 1,
+        "entradas_tackles": 0,
+        "intercepciones": 0,
+        "faltas_cometidas": 0,
+        "faltas_recibidas": 0
+      },
+      {
+        "dorsal": 2,
+        "nombre": "Gerald Taylor",
+        "posicion_linea": "DEF",
+        "titular": false,
+        "es_portero": false,
+        "participo": true,
+        "minutos_jugados": 12,
+        "rating_fotmob": 6.37,
+        "estado": "confirmado",
+        "goles": 0,
+        "asistencias": 0,
+        "tiros_totales": 0,
+        "tiros_a_puerta": 0,
+        "tiros_fuera": 0,
+        "tiros_bloqueados": 0,
+        "tiros_al_poste": 0,
+        "ocasiones_creadas": 0,
+        "grandes_ocasiones_creadas": 0,
+        "grandes_ocasiones_falladas": 0,
+        "toques": 15,
+        "toques_area_rival": 1,
+        "pases_precisos": 8,
+        "pases_intentados": 10,
+        "pases_ultimo_tercio": 0,
+        "centros": {
+          "acertados": 0,
+          "intentados": 0
+        },
+        "balones_largos": {
+          "acertados": 0,
+          "intentados": 1
+        },
+        "tiros_de_esquina_cobrados": 0,
+        "regates": {
+          "acertados": 0,
+          "intentados": 1
+        },
+        "desposesiones": 0,
+        "fueras_de_juego": 0,
+        "acciones_defensivas": 2,
+        "entradas_tackles": 2,
+        "intercepciones": 0,
+        "bloqueos_defensivos": 0,
+        "despejes": 0,
+        "despejes_cabeza": 0,
+        "recuperaciones": 1,
+        "regates_sufridos": 0,
+        "duelos_ganados": 2,
+        "duelos_perdidos": 1,
+        "duelos_suelo": {
+          "acertados": 2,
+          "intentados": 3
+        },
+        "duelos_aereos": {
+          "acertados": 0,
+          "intentados": 0
+        },
+        "faltas_cometidas": 0,
+        "faltas_recibidas": 0
+      },
+      {
+        "dorsal": 10,
+        "nombre": "Brandon Aguilera",
+        "posicion_linea": "MED",
+        "titular": false,
+        "es_portero": false,
+        "participo": true,
+        "minutos_jugados": 26,
+        "rating_fotmob": 6.89,
+        "estado": "confirmado",
+        "goles": 0,
+        "asistencias": 0,
+        "tiros_totales": 1,
+        "tiros_a_puerta": 0,
+        "tiros_fuera": 1,
+        "tiros_bloqueados": 0,
+        "tiros_al_poste": 0,
+        "ocasiones_creadas": 2,
+        "grandes_ocasiones_creadas": 1,
+        "grandes_ocasiones_falladas": 0,
+        "toques": 38,
+        "toques_area_rival": 0,
+        "pases_precisos": 25,
+        "pases_intentados": 29,
+        "pases_ultimo_tercio": 4,
+        "centros": {
+          "acertados": 2,
+          "intentados": 3
+        },
+        "balones_largos": {
+          "acertados": 0,
+          "intentados": 0
+        },
+        "tiros_de_esquina_cobrados": 2,
+        "regates": {
+          "acertados": 0,
+          "intentados": 1
+        },
+        "desposesiones": 0,
+        "fueras_de_juego": 0,
+        "acciones_defensivas": 3,
+        "entradas_tackles": 2,
+        "intercepciones": 1,
+        "bloqueos_defensivos": 0,
+        "despejes": 0,
+        "despejes_cabeza": 0,
+        "recuperaciones": 5,
+        "regates_sufridos": 2,
+        "duelos_ganados": 2,
+        "duelos_perdidos": 4,
+        "duelos_suelo": {
+          "acertados": 2,
+          "intentados": 6
+        },
+        "duelos_aereos": {
+          "acertados": 0,
+          "intentados": 0
+        },
+        "faltas_cometidas": 1,
+        "faltas_recibidas": 0
+      },
+      {
+        "dorsal": 12,
+        "nombre": "Joel Campbell",
+        "posicion_linea": "DEL",
+        "titular": false,
+        "es_portero": false,
+        "participo": true,
+        "minutos_jugados": 9,
+        "rating_fotmob": null,
+        "estado": "confirmado",
+        "goles": 0,
+        "asistencias": 1,
+        "tiros_totales": 0,
+        "tiros_a_puerta": 0,
+        "tiros_fuera": 0,
+        "tiros_bloqueados": 0,
+        "tiros_al_poste": 0,
+        "ocasiones_creadas": 2,
+        "grandes_ocasiones_creadas": 1,
+        "grandes_ocasiones_falladas": 0,
+        "toques": 23,
+        "toques_area_rival": 0,
+        "pases_precisos": 20,
+        "pases_intentados": 22,
+        "pases_ultimo_tercio": 8,
+        "centros": {
+          "acertados": 0,
+          "intentados": 0
+        },
+        "balones_largos": {
+          "acertados": 2,
+          "intentados": 2
+        },
+        "tiros_de_esquina_cobrados": 0,
+        "regates": {
+          "acertados": 0,
+          "intentados": 0
+        },
+        "desposesiones": 0,
+        "fueras_de_juego": 0,
+        "acciones_defensivas": 1,
+        "entradas_tackles": 1,
+        "intercepciones": 0,
+        "bloqueos_defensivos": 0,
+        "despejes": 0,
+        "despejes_cabeza": 0,
+        "recuperaciones": 1,
+        "regates_sufridos": 0,
+        "duelos_ganados": 1,
+        "duelos_perdidos": 0,
+        "duelos_suelo": {
+          "acertados": 1,
+          "intentados": 1
+        },
+        "duelos_aereos": {
+          "acertados": 0,
+          "intentados": 0
+        },
+        "faltas_cometidas": 0,
+        "faltas_recibidas": 0
+      },
+      {
+        "dorsal": 19,
+        "nombre": "Andy Rojas",
+        "posicion_linea": "DEL",
+        "titular": false,
+        "es_portero": false,
+        "participo": true,
+        "minutos_jugados": 12,
+        "rating_fotmob": 7.28,
+        "estado": "confirmado",
+        "goles": 1,
+        "asistencias": 0,
+        "tiros_totales": 1,
+        "tiros_a_puerta": 1,
+        "tiros_fuera": 0,
+        "tiros_bloqueados": 0,
+        "tiros_al_poste": 0,
+        "ocasiones_creadas": 0,
+        "grandes_ocasiones_creadas": 0,
+        "grandes_ocasiones_falladas": 0,
+        "toques": 14,
+        "toques_area_rival": 2,
+        "pases_precisos": 10,
+        "pases_intentados": 11,
+        "pases_ultimo_tercio": 0,
+        "centros": {
+          "acertados": 0,
+          "intentados": 0
+        },
+        "balones_largos": {
+          "acertados": 0,
+          "intentados": 0
+        },
+        "tiros_de_esquina_cobrados": 0,
+        "regates": {
+          "acertados": 0,
+          "intentados": 0
+        },
+        "desposesiones": 0,
+        "fueras_de_juego": 0,
+        "acciones_defensivas": 0,
+        "entradas_tackles": 0,
+        "intercepciones": 0,
+        "bloqueos_defensivos": 0,
+        "despejes": 0,
+        "despejes_cabeza": 0,
+        "recuperaciones": 1,
+        "regates_sufridos": 0,
+        "duelos_ganados": 0,
+        "duelos_perdidos": 0,
+        "duelos_suelo": {
+          "acertados": 0,
+          "intentados": 0
+        },
+        "duelos_aereos": {
+          "acertados": 0,
+          "intentados": 0
+        },
+        "faltas_cometidas": 0,
+        "faltas_recibidas": 0
+      },
+      {
+        "dorsal": 20,
+        "nombre": "Josimar Alcócer",
+        "posicion_linea": "DEL",
+        "titular": false,
+        "es_portero": false,
+        "participo": true,
+        "minutos_jugados": 25,
+        "rating_fotmob": 7.6,
+        "estado": "confirmado",
+        "goles": 1,
+        "asistencias": 0,
+        "tiros_totales": 2,
+        "tiros_a_puerta": 1,
+        "tiros_fuera": 0,
+        "tiros_bloqueados": 1,
+        "tiros_al_poste": 0,
+        "ocasiones_creadas": 1,
+        "grandes_ocasiones_creadas": 0,
+        "grandes_ocasiones_falladas": 0,
+        "toques": 32,
+        "toques_area_rival": 4,
+        "pases_precisos": 20,
+        "pases_intentados": 21,
+        "pases_ultimo_tercio": 1,
+        "centros": {
+          "acertados": 0,
+          "intentados": 1
+        },
+        "balones_largos": {
+          "acertados": 0,
+          "intentados": 1
+        },
+        "tiros_de_esquina_cobrados": 0,
+        "regates": {
+          "acertados": 0,
+          "intentados": 0
+        },
+        "desposesiones": 0,
+        "fueras_de_juego": 0,
+        "acciones_defensivas": 3,
+        "entradas_tackles": 2,
+        "intercepciones": 0,
+        "bloqueos_defensivos": 0,
+        "despejes": 1,
+        "despejes_cabeza": 1,
+        "recuperaciones": 2,
+        "regates_sufridos": 1,
+        "duelos_ganados": 2,
+        "duelos_perdidos": 4,
+        "duelos_suelo": {
+          "acertados": 2,
+          "intentados": 4
+        },
+        "duelos_aereos": {
+          "acertados": 0,
+          "intentados": 2
+        },
+        "faltas_cometidas": 1,
+        "faltas_recibidas": 0
+      },
+      {
+        "dorsal": 1,
+        "nombre": "Kevin Chamorro",
+        "posicion_linea": "POR",
+        "titular": false,
+        "es_portero": true,
+        "participo": false,
+        "minutos_jugados": 0,
+        "rating_fotmob": null,
+        "estado": "confirmado",
+        "nota": "Suplente sin minutos disputados."
+      },
+      {
+        "dorsal": 4,
+        "nombre": "Juan Pablo Vargas",
+        "posicion_linea": "DEF",
+        "titular": false,
+        "es_portero": false,
+        "participo": false,
+        "minutos_jugados": 0,
+        "rating_fotmob": null,
+        "estado": "confirmado",
+        "nota": "Suplente sin minutos disputados."
+      },
+      {
+        "dorsal": 5,
+        "nombre": "Fernán Faerron",
+        "posicion_linea": "DEF",
+        "titular": false,
+        "es_portero": false,
+        "participo": false,
+        "minutos_jugados": 0,
+        "rating_fotmob": null,
+        "estado": "confirmado",
+        "nota": "Suplente sin minutos disputados."
+      },
+      {
+        "dorsal": 7,
+        "nombre": "Anthony Contreras",
+        "posicion_linea": "DEL",
+        "titular": false,
+        "es_portero": false,
+        "participo": false,
+        "minutos_jugados": 0,
+        "rating_fotmob": null,
+        "estado": "confirmado",
+        "nota": "Suplente sin minutos disputados."
+      },
+      {
+        "dorsal": 8,
+        "nombre": "Joseph Mora",
+        "posicion_linea": "DEF",
+        "titular": false,
+        "es_portero": false,
+        "participo": false,
+        "minutos_jugados": 0,
+        "rating_fotmob": null,
+        "estado": "confirmado",
+        "nota": "Suplente sin minutos disputados."
+      },
+      {
+        "dorsal": 16,
+        "nombre": "Alejandro Bran",
+        "posicion_linea": "MED",
+        "titular": false,
+        "es_portero": false,
+        "participo": false,
+        "minutos_jugados": 0,
+        "rating_fotmob": null,
+        "estado": "confirmado",
+        "nota": "Suplente sin minutos disputados."
+      },
+      {
+        "dorsal": 18,
+        "nombre": "Aarón Cruz",
+        "posicion_linea": "POR",
+        "titular": false,
+        "es_portero": true,
+        "participo": false,
+        "minutos_jugados": 0,
+        "rating_fotmob": null,
+        "estado": "confirmado",
+        "nota": "Suplente sin minutos disputados."
+      }
+    ],
+    "san_cristobal_y_nieves": [
+      {
+        "dorsal": 3,
+        "nombre": "Ethan Bristow",
+        "posicion_linea": "DEF",
+        "titular": true,
+        "es_portero": false,
+        "participo": true,
+        "minutos_jugados": 90,
+        "rating_fotmob": 5.68,
+        "estado": "confirmado",
+        "goles": 0,
+        "asistencias": 0,
+        "tiros_totales": 0,
+        "tiros_a_puerta": 0,
+        "tiros_fuera": 0,
+        "tiros_bloqueados": 0,
+        "tiros_al_poste": 0,
+        "ocasiones_creadas": 1,
+        "grandes_ocasiones_creadas": 0,
+        "grandes_ocasiones_falladas": 0,
+        "toques": 44,
+        "toques_area_rival": 0,
+        "pases_precisos": 13,
+        "pases_intentados": 22,
+        "pases_ultimo_tercio": 2,
+        "centros": {
+          "acertados": 1,
+          "intentados": 1
+        },
+        "balones_largos": {
+          "acertados": 4,
+          "intentados": 7
+        },
+        "tiros_de_esquina_cobrados": 0,
+        "regates": {
+          "acertados": 0,
+          "intentados": 2
+        },
+        "desposesiones": 0,
+        "fueras_de_juego": 0,
+        "acciones_defensivas": 9,
+        "entradas_tackles": 2,
+        "intercepciones": 3,
+        "bloqueos_defensivos": 0,
+        "despejes": 4,
+        "despejes_cabeza": 0,
+        "recuperaciones": 5,
+        "regates_sufridos": 0,
+        "duelos_ganados": 3,
+        "duelos_perdidos": 3,
+        "duelos_suelo": {
+          "acertados": 3,
+          "intentados": 6
+        },
+        "duelos_aereos": {
+          "acertados": 0,
+          "intentados": 0
+        },
+        "faltas_cometidas": 1,
+        "faltas_recibidas": 1
+      },
+      {
+        "dorsal": 4,
+        "nombre": "Andre Burley",
+        "posicion_linea": "DEF",
+        "titular": true,
+        "es_portero": false,
+        "participo": true,
+        "minutos_jugados": 90,
+        "rating_fotmob": 5.73,
+        "estado": "confirmado",
+        "goles": 0,
+        "asistencias": 0,
+        "tiros_totales": 0,
+        "tiros_a_puerta": 0,
+        "tiros_fuera": 0,
+        "tiros_bloqueados": 0,
+        "tiros_al_poste": 0,
+        "ocasiones_creadas": 0,
+        "grandes_ocasiones_creadas": 0,
+        "grandes_ocasiones_falladas": 0,
+        "toques": 53,
+        "toques_area_rival": 0,
+        "pases_precisos": 24,
+        "pases_intentados": 35,
+        "pases_ultimo_tercio": 11,
+        "centros": {
+          "acertados": 0,
+          "intentados": 0
+        },
+        "balones_largos": {
+          "acertados": 3,
+          "intentados": 11
+        },
+        "tiros_de_esquina_cobrados": 0,
+        "regates": {
+          "acertados": 2,
+          "intentados": 3
+        },
+        "desposesiones": 0,
+        "fueras_de_juego": 0,
+        "acciones_defensivas": 8,
+        "entradas_tackles": 1,
+        "intercepciones": 0,
+        "bloqueos_defensivos": 2,
+        "despejes": 5,
+        "despejes_cabeza": 2,
+        "recuperaciones": 6,
+        "regates_sufridos": 0,
+        "duelos_ganados": 5,
+        "duelos_perdidos": 1,
+        "duelos_suelo": {
+          "acertados": 5,
+          "intentados": 6
+        },
+        "duelos_aereos": {
+          "acertados": 0,
+          "intentados": 0
+        },
+        "faltas_cometidas": 0,
+        "faltas_recibidas": 2
+      },
+      {
+        "dorsal": 5,
+        "nombre": "Jameel Ible",
+        "posicion_linea": "DEF",
+        "titular": true,
+        "es_portero": false,
+        "participo": true,
+        "minutos_jugados": 90,
+        "rating_fotmob": 5.23,
+        "estado": "confirmado",
+        "goles": 0,
+        "asistencias": 0,
+        "tiros_totales": 1,
+        "tiros_a_puerta": 0,
+        "tiros_fuera": 1,
+        "tiros_bloqueados": 0,
+        "tiros_al_poste": 0,
+        "ocasiones_creadas": 0,
+        "grandes_ocasiones_creadas": 0,
+        "grandes_ocasiones_falladas": 0,
+        "toques": 36,
+        "toques_area_rival": 1,
+        "pases_precisos": 18,
+        "pases_intentados": 21,
+        "pases_ultimo_tercio": 2,
+        "centros": {
+          "acertados": 0,
+          "intentados": 0
+        },
+        "balones_largos": {
+          "acertados": 0,
+          "intentados": 2
+        },
+        "tiros_de_esquina_cobrados": 0,
+        "regates": {
+          "acertados": 0,
+          "intentados": 0
+        },
+        "desposesiones": 0,
+        "fueras_de_juego": 0,
+        "acciones_defensivas": 5,
+        "entradas_tackles": 1,
+        "intercepciones": 1,
+        "bloqueos_defensivos": 2,
+        "despejes": 1,
+        "despejes_cabeza": 1,
+        "recuperaciones": 2,
+        "regates_sufridos": 0,
+        "duelos_ganados": 3,
+        "duelos_perdidos": 2,
+        "duelos_suelo": {
+          "acertados": 1,
+          "intentados": 2
+        },
+        "duelos_aereos": {
+          "acertados": 2,
+          "intentados": 3
+        },
+        "faltas_cometidas": 1,
+        "faltas_recibidas": 0
+      },
+      {
+        "dorsal": 6,
+        "nombre": "Lois Maynard",
+        "posicion_linea": "DEF",
+        "titular": true,
+        "es_portero": false,
+        "participo": true,
+        "minutos_jugados": 90,
+        "rating_fotmob": 5.7,
+        "estado": "confirmado",
+        "goles": 0,
+        "asistencias": 0,
+        "tiros_totales": 0,
+        "tiros_a_puerta": 0,
+        "tiros_fuera": 0,
+        "tiros_bloqueados": 0,
+        "tiros_al_poste": 0,
+        "ocasiones_creadas": 0,
+        "grandes_ocasiones_creadas": 0,
+        "grandes_ocasiones_falladas": 0,
+        "toques": 47,
+        "toques_area_rival": 0,
+        "pases_precisos": 25,
+        "pases_intentados": 34,
+        "pases_ultimo_tercio": 2,
+        "centros": {
+          "acertados": 0,
+          "intentados": 0
+        },
+        "balones_largos": {
+          "acertados": 2,
+          "intentados": 4
+        },
+        "tiros_de_esquina_cobrados": 0,
+        "regates": {
+          "acertados": 0,
+          "intentados": 1
+        },
+        "desposesiones": 0,
+        "fueras_de_juego": 0,
+        "acciones_defensivas": 10,
+        "entradas_tackles": 0,
+        "intercepciones": 5,
+        "bloqueos_defensivos": 2,
+        "despejes": 3,
+        "despejes_cabeza": 2,
+        "recuperaciones": 10,
+        "regates_sufridos": 0,
+        "duelos_ganados": 2,
+        "duelos_perdidos": 4,
+        "duelos_suelo": {
+          "acertados": 0,
+          "intentados": 2
+        },
+        "duelos_aereos": {
+          "acertados": 2,
+          "intentados": 4
+        },
+        "faltas_cometidas": 1,
+        "faltas_recibidas": 0
+      },
+      {
+        "dorsal": 10,
+        "nombre": "Tyrese Shade",
+        "posicion_linea": "DEL",
+        "titular": true,
+        "es_portero": false,
+        "participo": true,
+        "minutos_jugados": 77,
+        "rating_fotmob": 6.26,
+        "estado": "confirmado",
+        "goles": 0,
+        "asistencias": 0,
+        "tiros_totales": 1,
+        "tiros_a_puerta": 0,
+        "tiros_fuera": 0,
+        "tiros_bloqueados": 1,
+        "tiros_al_poste": 0,
+        "ocasiones_creadas": 0,
+        "grandes_ocasiones_creadas": 0,
+        "grandes_ocasiones_falladas": 0,
+        "toques": 33,
+        "toques_area_rival": 1,
+        "pases_precisos": 18,
+        "pases_intentados": 22,
+        "pases_ultimo_tercio": 3,
+        "centros": {
+          "acertados": 0,
+          "intentados": 0
+        },
+        "balones_largos": {
+          "acertados": 0,
+          "intentados": 0
+        },
+        "tiros_de_esquina_cobrados": 2,
+        "regates": {
+          "acertados": 1,
+          "intentados": 4
+        },
+        "desposesiones": 1,
+        "fueras_de_juego": 0,
+        "acciones_defensivas": 0,
+        "entradas_tackles": 0,
+        "intercepciones": 0,
+        "bloqueos_defensivos": 0,
+        "despejes": 0,
+        "despejes_cabeza": 0,
+        "recuperaciones": 7,
+        "regates_sufridos": 0,
+        "duelos_ganados": 2,
+        "duelos_perdidos": 5,
+        "duelos_suelo": {
+          "acertados": 1,
+          "intentados": 5
+        },
+        "duelos_aereos": {
+          "acertados": 1,
+          "intentados": 2
+        },
+        "faltas_cometidas": 0,
+        "faltas_recibidas": 0
+      },
+      {
+        "dorsal": 11,
+        "nombre": "Kimaree Rogers",
+        "posicion_linea": "DEL",
+        "titular": true,
+        "es_portero": false,
+        "participo": true,
+        "minutos_jugados": 53,
+        "rating_fotmob": 5.83,
+        "estado": "confirmado",
+        "goles": 0,
+        "asistencias": 0,
+        "tiros_totales": 1,
+        "tiros_a_puerta": 0,
+        "tiros_fuera": 1,
+        "tiros_bloqueados": 0,
+        "tiros_al_poste": 0,
+        "ocasiones_creadas": 0,
+        "grandes_ocasiones_creadas": 0,
+        "grandes_ocasiones_falladas": 0,
+        "toques": 14,
+        "toques_area_rival": 0,
+        "pases_precisos": 4,
+        "pases_intentados": 5,
+        "pases_ultimo_tercio": 0,
+        "centros": {
+          "acertados": 0,
+          "intentados": 2
+        },
+        "balones_largos": {
+          "acertados": 0,
+          "intentados": 0
+        },
+        "tiros_de_esquina_cobrados": 0,
+        "regates": {
+          "acertados": 0,
+          "intentados": 1
+        },
+        "desposesiones": 1,
+        "fueras_de_juego": 1,
+        "acciones_defensivas": 1,
+        "entradas_tackles": 0,
+        "intercepciones": 0,
+        "bloqueos_defensivos": 0,
+        "despejes": 1,
+        "despejes_cabeza": 0,
+        "recuperaciones": 4,
+        "regates_sufridos": 0,
+        "duelos_ganados": 1,
+        "duelos_perdidos": 5,
+        "duelos_suelo": {
+          "acertados": 1,
+          "intentados": 4
+        },
+        "duelos_aereos": {
+          "acertados": 0,
+          "intentados": 2
+        },
+        "faltas_cometidas": 1,
+        "faltas_recibidas": 1
+      },
+      {
+        "dorsal": 14,
+        "nombre": "Tyquan Terrell",
+        "posicion_linea": "MED",
+        "titular": true,
+        "es_portero": false,
+        "participo": true,
+        "minutos_jugados": 77,
+        "rating_fotmob": 6.48,
+        "estado": "confirmado",
+        "goles": 0,
+        "asistencias": 0,
+        "tiros_totales": 0,
+        "tiros_a_puerta": 0,
+        "tiros_fuera": 0,
+        "tiros_bloqueados": 0,
+        "tiros_al_poste": 0,
+        "ocasiones_creadas": 0,
+        "grandes_ocasiones_creadas": 0,
+        "grandes_ocasiones_falladas": 0,
+        "toques": 20,
+        "toques_area_rival": 0,
+        "pases_precisos": 11,
+        "pases_intentados": 11,
+        "pases_ultimo_tercio": 0,
+        "centros": {
+          "acertados": 0,
+          "intentados": 0
+        },
+        "balones_largos": {
+          "acertados": 0,
+          "intentados": 0
+        },
+        "tiros_de_esquina_cobrados": 0,
+        "regates": {
+          "acertados": 1,
+          "intentados": 1
+        },
+        "desposesiones": 0,
+        "fueras_de_juego": 0,
+        "acciones_defensivas": 2,
+        "entradas_tackles": 0,
+        "intercepciones": 2,
+        "bloqueos_defensivos": 0,
+        "despejes": 0,
+        "despejes_cabeza": 0,
+        "recuperaciones": 6,
+        "regates_sufridos": 0,
+        "duelos_ganados": 2,
+        "duelos_perdidos": 3,
+        "duelos_suelo": {
+          "acertados": 2,
+          "intentados": 3
+        },
+        "duelos_aereos": {
+          "acertados": 0,
+          "intentados": 2
+        },
+        "faltas_cometidas": 1,
+        "faltas_recibidas": 1
+      },
+      {
+        "dorsal": 15,
+        "nombre": "Mervin Lewis",
+        "posicion_linea": "MED",
+        "titular": true,
+        "es_portero": false,
+        "participo": true,
+        "minutos_jugados": 90,
+        "rating_fotmob": 6.65,
+        "estado": "confirmado",
+        "goles": 0,
+        "asistencias": 0,
+        "tiros_totales": 1,
+        "tiros_a_puerta": 0,
+        "tiros_fuera": 1,
+        "tiros_bloqueados": 0,
+        "tiros_al_poste": 0,
+        "ocasiones_creadas": 0,
+        "grandes_ocasiones_creadas": 0,
+        "grandes_ocasiones_falladas": 0,
+        "toques": 39,
+        "toques_area_rival": 0,
+        "pases_precisos": 19,
+        "pases_intentados": 21,
+        "pases_ultimo_tercio": 4,
+        "centros": {
+          "acertados": 0,
+          "intentados": 0
+        },
+        "balones_largos": {
+          "acertados": 4,
+          "intentados": 4
+        },
+        "tiros_de_esquina_cobrados": 0,
+        "regates": {
+          "acertados": 2,
+          "intentados": 3
+        },
+        "desposesiones": 2,
+        "fueras_de_juego": 0,
+        "acciones_defensivas": 6,
+        "entradas_tackles": 3,
+        "intercepciones": 2,
+        "bloqueos_defensivos": 0,
+        "despejes": 1,
+        "despejes_cabeza": 1,
+        "recuperaciones": 2,
+        "regates_sufridos": 1,
+        "duelos_ganados": 6,
+        "duelos_perdidos": 9,
+        "duelos_suelo": {
+          "acertados": 6,
+          "intentados": 13
+        },
+        "duelos_aereos": {
+          "acertados": 0,
+          "intentados": 2
+        },
+        "faltas_cometidas": 3,
+        "faltas_recibidas": 1
+      },
+      {
+        "dorsal": 18,
+        "nombre": "Julani Archibald",
+        "posicion_linea": "POR",
+        "titular": true,
+        "es_portero": true,
+        "participo": true,
+        "minutos_jugados": 90,
+        "rating_fotmob": 4.25,
+        "estado": "confirmado",
+        "atajadas": 3,
+        "atajadas_dentro_area": 1,
+        "estiradas_diving_save": 2,
+        "despejes_punos": 2,
+        "centros_descolgados": 0,
+        "saques_con_mano": 3,
+        "salidas_libero": 0,
+        "goles_concedidos": 4,
+        "error_derivado_en_gol": 1,
+        "toques": 41,
+        "pases_precisos": 14,
+        "pases_intentados": 33,
+        "pases_ultimo_tercio": 3,
+        "balones_largos": {
+          "acertados": 6,
+          "intentados": 25
+        },
+        "recuperaciones": 7,
+        "despejes": 2,
+        "entradas_tackles": 0,
+        "intercepciones": 0,
+        "faltas_cometidas": 0,
+        "faltas_recibidas": 0
+      },
+      {
+        "dorsal": 19,
+        "nombre": "Romaine Sawyers",
+        "posicion_linea": "MED",
+        "titular": true,
+        "es_portero": false,
+        "participo": true,
+        "minutos_jugados": 77,
+        "rating_fotmob": 6.02,
+        "estado": "confirmado",
+        "goles": 0,
+        "asistencias": 0,
+        "tiros_totales": 1,
+        "tiros_a_puerta": 1,
+        "tiros_fuera": 0,
+        "tiros_bloqueados": 0,
+        "tiros_al_poste": 0,
+        "ocasiones_creadas": 0,
+        "grandes_ocasiones_creadas": 0,
+        "grandes_ocasiones_falladas": 0,
+        "toques": 33,
+        "toques_area_rival": 2,
+        "pases_precisos": 14,
+        "pases_intentados": 22,
+        "pases_ultimo_tercio": 4,
+        "centros": {
+          "acertados": 0,
+          "intentados": 0
+        },
+        "balones_largos": {
+          "acertados": 1,
+          "intentados": 2
+        },
+        "tiros_de_esquina_cobrados": 0,
+        "regates": {
+          "acertados": 1,
+          "intentados": 1
+        },
+        "desposesiones": 1,
+        "fueras_de_juego": 1,
+        "acciones_defensivas": 0,
+        "entradas_tackles": 0,
+        "intercepciones": 0,
+        "bloqueos_defensivos": 0,
+        "despejes": 0,
+        "despejes_cabeza": 0,
+        "recuperaciones": 1,
+        "regates_sufridos": 1,
+        "duelos_ganados": 7,
+        "duelos_perdidos": 10,
+        "duelos_suelo": {
+          "acertados": 2,
+          "intentados": 5
+        },
+        "duelos_aereos": {
+          "acertados": 5,
+          "intentados": 12
+        },
+        "faltas_cometidas": 1,
+        "faltas_recibidas": 2
+      },
+      {
+        "dorsal": 22,
+        "nombre": "Omari Sterling-James",
+        "posicion_linea": "DEF",
+        "titular": true,
+        "es_portero": false,
+        "participo": true,
+        "minutos_jugados": 85,
+        "rating_fotmob": 5.24,
+        "estado": "confirmado",
+        "goles": 0,
+        "asistencias": 0,
+        "tiros_totales": 0,
+        "tiros_a_puerta": 0,
+        "tiros_fuera": 0,
+        "tiros_bloqueados": 0,
+        "tiros_al_poste": 0,
+        "ocasiones_creadas": 1,
+        "grandes_ocasiones_creadas": 0,
+        "grandes_ocasiones_falladas": 0,
+        "toques": 45,
+        "toques_area_rival": 1,
+        "pases_precisos": 22,
+        "pases_intentados": 29,
+        "pases_ultimo_tercio": 8,
+        "centros": {
+          "acertados": 1,
+          "intentados": 6
+        },
+        "balones_largos": {
+          "acertados": 3,
+          "intentados": 6
+        },
+        "tiros_de_esquina_cobrados": 1,
+        "regates": {
+          "acertados": 0,
+          "intentados": 1
+        },
+        "desposesiones": 0,
+        "fueras_de_juego": 0,
+        "acciones_defensivas": 3,
+        "entradas_tackles": 1,
+        "intercepciones": 0,
+        "bloqueos_defensivos": 0,
+        "despejes": 2,
+        "despejes_cabeza": 2,
+        "recuperaciones": 5,
+        "regates_sufridos": 2,
+        "duelos_ganados": 1,
+        "duelos_perdidos": 5,
+        "duelos_suelo": {
+          "acertados": 1,
+          "intentados": 6
+        },
+        "duelos_aereos": {
+          "acertados": 0,
+          "intentados": 0
+        },
+        "faltas_cometidas": 2,
+        "faltas_recibidas": 0
+      },
+      {
+        "dorsal": 7,
+        "nombre": "G'Vaune Amory",
+        "posicion_linea": "MED",
+        "titular": false,
+        "es_portero": false,
+        "participo": true,
+        "minutos_jugados": 13,
+        "rating_fotmob": 5.91,
+        "estado": "confirmado",
+        "goles": 0,
+        "asistencias": 0,
+        "tiros_totales": 0,
+        "tiros_a_puerta": 0,
+        "tiros_fuera": 0,
+        "tiros_bloqueados": 0,
+        "tiros_al_poste": 0,
+        "ocasiones_creadas": 0,
+        "grandes_ocasiones_creadas": 0,
+        "grandes_ocasiones_falladas": 0,
+        "toques": 16,
+        "toques_area_rival": 0,
+        "pases_precisos": 5,
+        "pases_intentados": 6,
+        "pases_ultimo_tercio": 0,
+        "centros": {
+          "acertados": 0,
+          "intentados": 0
+        },
+        "balones_largos": {
+          "acertados": 0,
+          "intentados": 0
+        },
+        "tiros_de_esquina_cobrados": 0,
+        "regates": {
+          "acertados": 2,
+          "intentados": 4
+        },
+        "desposesiones": 2,
+        "fueras_de_juego": 1,
+        "acciones_defensivas": 0,
+        "entradas_tackles": 0,
+        "intercepciones": 0,
+        "bloqueos_defensivos": 0,
+        "despejes": 0,
+        "despejes_cabeza": 0,
+        "recuperaciones": 0,
+        "regates_sufridos": 0,
+        "duelos_ganados": 2,
+        "duelos_perdidos": 4,
+        "duelos_suelo": {
+          "acertados": 2,
+          "intentados": 6
+        },
+        "duelos_aereos": {
+          "acertados": 0,
+          "intentados": 0
+        },
+        "faltas_cometidas": 0,
+        "faltas_recibidas": 0
+      },
+      {
+        "dorsal": 8,
+        "nombre": "Yohannes Mitchum",
+        "posicion_linea": "MED",
+        "titular": false,
+        "es_portero": false,
+        "participo": true,
+        "minutos_jugados": 13,
+        "rating_fotmob": 6.29,
+        "estado": "confirmado",
+        "goles": 0,
+        "asistencias": 0,
+        "tiros_totales": 0,
+        "tiros_a_puerta": 0,
+        "tiros_fuera": 0,
+        "tiros_bloqueados": 0,
+        "tiros_al_poste": 0,
+        "ocasiones_creadas": 0,
+        "grandes_ocasiones_creadas": 0,
+        "grandes_ocasiones_falladas": 0,
+        "toques": 21,
+        "toques_area_rival": 1,
+        "pases_precisos": 16,
+        "pases_intentados": 19,
+        "pases_ultimo_tercio": 3,
+        "centros": {
+          "acertados": 0,
+          "intentados": 0
+        },
+        "balones_largos": {
+          "acertados": 1,
+          "intentados": 1
+        },
+        "tiros_de_esquina_cobrados": 0,
+        "regates": {
+          "acertados": 0,
+          "intentados": 0
+        },
+        "desposesiones": 0,
+        "fueras_de_juego": 0,
+        "acciones_defensivas": 1,
+        "entradas_tackles": 0,
+        "intercepciones": 1,
+        "bloqueos_defensivos": 0,
+        "despejes": 0,
+        "despejes_cabeza": 0,
+        "recuperaciones": 1,
+        "regates_sufridos": 0,
+        "duelos_ganados": 0,
+        "duelos_perdidos": 0,
+        "duelos_suelo": {
+          "acertados": 0,
+          "intentados": 0
+        },
+        "duelos_aereos": {
+          "acertados": 0,
+          "intentados": 0
+        },
+        "faltas_cometidas": 0,
+        "faltas_recibidas": 0
+      },
+      {
+        "dorsal": 9,
+        "nombre": "Harrison Panayiotou",
+        "posicion_linea": "DEL",
+        "titular": false,
+        "es_portero": false,
+        "participo": true,
+        "minutos_jugados": 37,
+        "rating_fotmob": 5.99,
+        "estado": "confirmado",
+        "goles": 0,
+        "asistencias": 0,
+        "tiros_totales": 0,
+        "tiros_a_puerta": 0,
+        "tiros_fuera": 0,
+        "tiros_bloqueados": 0,
+        "tiros_al_poste": 0,
+        "ocasiones_creadas": 0,
+        "grandes_ocasiones_creadas": 0,
+        "grandes_ocasiones_falladas": 0,
+        "toques": 19,
+        "toques_area_rival": 1,
+        "pases_precisos": 10,
+        "pases_intentados": 11,
+        "pases_ultimo_tercio": 0,
+        "centros": {
+          "acertados": 0,
+          "intentados": 3
+        },
+        "balones_largos": {
+          "acertados": 0,
+          "intentados": 0
+        },
+        "tiros_de_esquina_cobrados": 0,
+        "regates": {
+          "acertados": 0,
+          "intentados": 0
+        },
+        "desposesiones": 0,
+        "fueras_de_juego": 0,
+        "acciones_defensivas": 1,
+        "entradas_tackles": 1,
+        "intercepciones": 0,
+        "bloqueos_defensivos": 0,
+        "despejes": 0,
+        "despejes_cabeza": 0,
+        "recuperaciones": 1,
+        "regates_sufridos": 0,
+        "duelos_ganados": 3,
+        "duelos_perdidos": 4,
+        "duelos_suelo": {
+          "acertados": 3,
+          "intentados": 4
+        },
+        "duelos_aereos": {
+          "acertados": 0,
+          "intentados": 3
+        },
+        "faltas_cometidas": 1,
+        "faltas_recibidas": 2
+      },
+      {
+        "dorsal": 20,
+        "nombre": "Diego Edwards",
+        "posicion_linea": "DEL",
+        "titular": false,
+        "es_portero": false,
+        "participo": true,
+        "minutos_jugados": 13,
+        "rating_fotmob": 5.89,
+        "estado": "confirmado",
+        "goles": 0,
+        "asistencias": 0,
+        "tiros_totales": 0,
+        "tiros_a_puerta": 0,
+        "tiros_fuera": 0,
+        "tiros_bloqueados": 0,
+        "tiros_al_poste": 0,
+        "ocasiones_creadas": 0,
+        "grandes_ocasiones_creadas": 0,
+        "grandes_ocasiones_falladas": 0,
+        "toques": 4,
+        "toques_area_rival": 0,
+        "pases_precisos": 2,
+        "pases_intentados": 3,
+        "pases_ultimo_tercio": 0,
+        "centros": {
+          "acertados": 0,
+          "intentados": 0
+        },
+        "balones_largos": {
+          "acertados": 0,
+          "intentados": 0
+        },
+        "tiros_de_esquina_cobrados": 0,
+        "regates": {
+          "acertados": 0,
+          "intentados": 1
+        },
+        "desposesiones": 0,
+        "fueras_de_juego": 0,
+        "acciones_defensivas": 0,
+        "entradas_tackles": 0,
+        "intercepciones": 0,
+        "bloqueos_defensivos": 0,
+        "despejes": 0,
+        "despejes_cabeza": 0,
+        "recuperaciones": 1,
+        "regates_sufridos": 0,
+        "duelos_ganados": 0,
+        "duelos_perdidos": 2,
+        "duelos_suelo": {
+          "acertados": 0,
+          "intentados": 2
+        },
+        "duelos_aereos": {
+          "acertados": 0,
+          "intentados": 0
+        },
+        "faltas_cometidas": 1,
+        "faltas_recibidas": 0
+      },
+      {
+        "dorsal": 21,
+        "nombre": "Nequan Browne",
+        "posicion_linea": "MED",
+        "titular": false,
+        "es_portero": false,
+        "participo": true,
+        "minutos_jugados": 5,
+        "rating_fotmob": null,
+        "estado": "confirmado",
+        "goles": 0,
+        "asistencias": 0,
+        "tiros_totales": 0,
+        "tiros_a_puerta": 0,
+        "tiros_fuera": 0,
+        "tiros_bloqueados": 0,
+        "tiros_al_poste": 0,
+        "ocasiones_creadas": 0,
+        "grandes_ocasiones_creadas": 0,
+        "grandes_ocasiones_falladas": 0,
+        "toques": 7,
+        "toques_area_rival": 0,
+        "pases_precisos": 6,
+        "pases_intentados": 6,
+        "pases_ultimo_tercio": 2,
+        "centros": {
+          "acertados": 0,
+          "intentados": 0
+        },
+        "balones_largos": {
+          "acertados": 0,
+          "intentados": 0
+        },
+        "tiros_de_esquina_cobrados": 0,
+        "regates": {
+          "acertados": 0,
+          "intentados": 0
+        },
+        "desposesiones": 0,
+        "fueras_de_juego": 0,
+        "acciones_defensivas": 1,
+        "entradas_tackles": 1,
+        "intercepciones": 0,
+        "bloqueos_defensivos": 0,
+        "despejes": 0,
+        "despejes_cabeza": 0,
+        "recuperaciones": 1,
+        "regates_sufridos": 0,
+        "duelos_ganados": 1,
+        "duelos_perdidos": 0,
+        "duelos_suelo": {
+          "acertados": 1,
+          "intentados": 1
+        },
+        "duelos_aereos": {
+          "acertados": 0,
+          "intentados": 0
+        },
+        "faltas_cometidas": 0,
+        "faltas_recibidas": 0
+      },
+      {
+        "dorsal": 1,
+        "nombre": "Kai Trotman",
+        "posicion_linea": "POR",
+        "titular": false,
+        "es_portero": true,
+        "participo": false,
+        "minutos_jugados": 0,
+        "rating_fotmob": null,
+        "estado": "confirmado",
+        "nota": "Suplente sin minutos disputados."
+      },
+      {
+        "dorsal": 2,
+        "nombre": "Malique Roberts",
+        "posicion_linea": "DEF",
+        "titular": false,
+        "es_portero": false,
+        "participo": false,
+        "minutos_jugados": 0,
+        "rating_fotmob": null,
+        "estado": "confirmado",
+        "nota": "Suplente sin minutos disputados."
+      },
+      {
+        "dorsal": 12,
+        "nombre": "Tyrique Davis",
+        "posicion_linea": "DEF",
+        "titular": false,
+        "es_portero": false,
+        "participo": false,
+        "minutos_jugados": 0,
+        "rating_fotmob": null,
+        "estado": "confirmado",
+        "nota": "Suplente sin minutos disputados."
+      },
+      {
+        "dorsal": 13,
+        "nombre": "Jal'Den Myers",
+        "posicion_linea": "DEF",
+        "titular": false,
+        "es_portero": false,
+        "participo": false,
+        "minutos_jugados": 0,
+        "rating_fotmob": null,
+        "estado": "confirmado",
+        "nota": "Suplente sin minutos disputados."
+      },
+      {
+        "dorsal": 16,
+        "nombre": "Yusuf Saunders",
+        "posicion_linea": "DEF",
+        "titular": false,
+        "es_portero": false,
+        "participo": false,
+        "minutos_jugados": 0,
+        "rating_fotmob": null,
+        "estado": "confirmado",
+        "nota": "Suplente sin minutos disputados."
+      },
+      {
+        "dorsal": 17,
+        "nombre": "Gabriel Vanterpool",
+        "posicion_linea": "DEL",
+        "titular": false,
+        "es_portero": false,
+        "participo": false,
+        "minutos_jugados": 0,
+        "rating_fotmob": null,
+        "estado": "confirmado",
+        "nota": "Suplente sin minutos disputados."
+      },
+      {
+        "dorsal": 23,
+        "nombre": "Vibert Stephen",
+        "posicion_linea": "POR",
+        "titular": false,
+        "es_portero": true,
+        "participo": false,
+        "minutos_jugados": 0,
+        "rating_fotmob": null,
+        "estado": "confirmado",
+        "nota": "Suplente sin minutos disputados."
+      }
+    ]
+  }
+}

@@ -1,0 +1,264 @@
+{
+  "meta": {
+    "proyecto": "OMNIMORPH v2",
+    "partido": "Costa Rica 4-0 San Cristóbal y Nieves",
+    "competicion": "Eliminatorias Concacaf rumbo a la Copa Mundial de la FIFA 2026",
+    "ronda": "Segunda Ronda",
+    "grupo": "Grupo B",
+    "jornada": 1,
+    "identificadores_externos": {
+      "fifa_id_match": "400017724",
+      "fifa_id_competition": "520",
+      "fifa_id_season": "288301",
+      "fifa_id_stage": "288302",
+      "fifa_id_group": "288303",
+      "ifes_statsperform_id": "141526",
+      "concacaf_match_uuid": "94968cbf476d4bfeb2a75732b5a38ef5",
+      "fotmob_match_id": 4416441,
+      "espn_event_id": "698147",
+      "transfermarkt_match_id": "4343320"
+    }
+  },
+  "fecha_y_horarios": {
+    "estado": "confirmado",
+    "fecha_local": "2024-06-06",
+    "hora_programada_local": "20:30:00-06:00",
+    "zona_horaria_local": "America/Costa_Rica (CST, UTC-6)",
+    "fecha_utc": "2024-06-07",
+    "hora_programada_utc": "02:30:00Z",
+    "inicio_real_utc": "2024-06-07T02:39:53.53Z",
+    "inicio_real_local": "2024-06-06T20:39:53-06:00",
+    "fin_primer_tiempo_utc": "2024-06-07T03:29:01.167Z",
+    "tiempo_anadido_1t_senialado_min": 4,
+    "tiempo_anadido_1t_jugado": "45'+5'",
+    "inicio_segundo_tiempo_utc": "2024-06-07T03:46:27.89Z",
+    "fin_partido_utc": "2024-06-07T04:35:52.893Z",
+    "tiempo_anadido_2t_senialado_min": 4,
+    "tiempo_anadido_2t_jugado": "90'+5'",
+    "nota_retraso": "El pitazo inicial real registrado en FIFA Timeline se dio aproximadamente a las 20:39:53 hora local (~10 minutos después de la hora programada)."
+  },
+  "estadio": {
+    "estado": "confirmado",
+    "nombre": "Estadio Nacional de Costa Rica",
+    "ubicacion": "Parque Metropolitano La Sabana, San José, Costa Rica",
+    "ciudad": "San José",
+    "pais": "Costa Rica",
+    "fifa_id_stadium": "400240995",
+    "capacidad_referencia": 35100,
+    "superficie": "Césped natural",
+    "techo": false
+  },
+  "asistencia": {
+    "estado": "confirmado",
+    "oficial": 15700,
+    "fuentes_confirmadas": [
+      "FIFA Live API v3 (400017724)",
+      "FotMob (4416441)",
+      "ESPN Summary API (698147)",
+      "Wikipedia CONCACAF Second Round"
+    ],
+    "discrepancia_detectada": {
+      "transfermarkt": 5150,
+      "efe_infobae_aproximacion": "unos 15.000 aficionados",
+      "explicacion": "La ficha de estadio en FIFA Live API trae el texto '5150' cargado anómalamente en Stadium.CityName; Transfermarkt tomó ese número como asistencia en lugar de 15.700."
+    }
+  },
+  "clima_y_cancha": {
+    "fifa_api_weather_estructurado": {
+      "valor": null,
+      "estado": "no_disponible",
+      "nota": "El campo Weather de FIFA API llega nulo; tampoco hay registro público oficial de temperatura exacta en grados Celsius o velocidad del viento en actas FIFA/Concacaf."
+    },
+    "condiciones_reportadas": {
+      "estado": "confirmado",
+      "descripcion": "Lluvia intensa y constante (aguacero) durante todo el encuentro en La Sabana; cancha rápida, pesada y resbaladiza que dificultó el traslado inicial del balón.",
+      "fuentes": [
+        "La Nación",
+        "Everardo Herrera",
+        "EFE / Infobae",
+        "FDP Radio",
+        "The Tico Times",
+        "Registro fotográfico del partido"
+      ]
+    }
+  },
+  "marcador": {
+    "estado": "confirmado",
+    "equipo_local": "Costa Rica",
+    "codigo_local": "CRC",
+    "equipo_visitante": "San Cristóbal y Nieves",
+    "codigo_visitante": "SKN",
+    "medio_tiempo": {
+      "costa_rica": 1,
+      "san_cristobal_y_nieves": 0
+    },
+    "segundo_tiempo_parcial": {
+      "costa_rica": 3,
+      "san_cristobal_y_nieves": 0
+    },
+    "final": {
+      "costa_rica": 4,
+      "san_cristobal_y_nieves": 0
+    },
+    "ganador": "Costa Rica"
+  },
+  "terna_arbitral": {
+    "estado": "confirmado",
+    "nacionalidad_terna": "Guatemala",
+    "arbitro_central": {
+      "nombre": "Julio Luna Guzmán",
+      "alias_fifa": "J. Luna",
+      "fifa_official_id": "434586",
+      "pais": "GUA"
+    },
+    "asistente_1": {
+      "nombre": "Jorge Ordóñez",
+      "nombre_fifa": "Jorge Ordoñez",
+      "pais": "GUA"
+    },
+    "asistente_2": {
+      "nombre": "Cristian Esau Alvarado de León",
+      "nombre_fifa": "Cristian Esau Alvarado de Leon",
+      "pais": "GUA"
+    },
+    "cuarto_arbitro": {
+      "nombre": "Cristhofer Corado",
+      "pais": "GUA"
+    }
+  },
+  "directores_tecnicos": {
+    "costa_rica": {
+      "estado": "confirmado",
+      "nombre": "Gustavo Alfaro",
+      "nacionalidad": "Argentina",
+      "fifa_id_coach": "428890"
+    },
+    "san_cristobal_y_nieves": {
+      "estado": "confirmado",
+      "nombre": "Francisco Molina",
+      "nacionalidad": "México",
+      "fifa_id_coach": "483207",
+      "discrepancia_detectada": "FotMob atribuye erróneamente el cargo a Austin Huggins; FIFA Live API (IdCoach 483207), Transfermarkt, EFE/Infobae, Everardo Herrera y declaraciones directas posteriores al juego en Radio Columbia confirman a Francisco Molina."
+    }
+  },
+  "contexto_competitivo": {
+    "estado": "confirmado",
+    "formato_segunda_ronda": "6 grupos de 5 selecciones; cada selección disputa 4 partidos (2 de local, 2 de visita). Clasifican los 2 primeros de cada grupo a la Tercera Ronda.",
+    "grupo_b_integrantes": [
+      "Costa Rica",
+      "Trinidad y Tobago",
+      "San Cristóbal y Nieves",
+      "Granada",
+      "Bahamas"
+    ],
+    "ranking_fifa_sorteo_diciembre_2023": {
+      "costa_rica": {
+        "puesto": 52,
+        "bombo": 1
+      },
+      "san_cristobal_y_nieves": {
+        "puesto": 147,
+        "bombo": 3
+      }
+    },
+    "otro_resultado_jornada_1_grupo_b": "Trinidad y Tobago 2-2 Granada (5 de junio de 2024, Port of Spain). Con el 4-0, Costa Rica asumió el primer lugar del Grupo B con 3 puntos y diferencia de +4."
+  },
+  "uniformes": {
+    "costa_rica_campo": {
+      "estado": "confirmado",
+      "marca": "Adidas (modelo 2024)",
+      "camiseta": "Roja con patrón frontal en azul oscuro/vino inspirado en las carretas típicas costarricenses, cuello redondo azul marino, tres franjas Adidas azul marino en los hombros, paneles laterales azul marino y dorsales/nombres en blanco.",
+      "pantaloneta": "Azul marino con franja lateral diagonal roja, escudo FCRF en pierna derecha y número blanco en pierna izquierda.",
+      "medias": "Azul marino con logotipo Adidas blanco al frente y banda superior horizontal roja.",
+      "parches": "Parches oficiales de Eliminatorias Concacaf / FIFA Qualifiers en las mangas.",
+      "discrepancia_nota_previa": "Una nota previa de La Nación mencionó de forma genérica camiseta roja, pantaloneta azul y 'medias azules'; el registro fotográfico directo del encuentro confirma medias azul marino con banda superior roja."
+    },
+    "costa_rica_portero": {
+      "estado": "no_disponible",
+      "titular": "Patrick Sequeira (#23)",
+      "nota": "No existe fotografía verificada de ese partido específico (6 de junio de 2024) ni parte oficial de utilería que confirme el color exacto utilizado por Sequeira esa noche; por regla de integridad del proyecto no se infiere por descarte."
+    },
+    "san_cristobal_y_nieves_campo": {
+      "estado": "confirmado",
+      "camiseta": "Verde brillante con banda diagonal negra atravesando el frente (con tres pequeñas estrellas/puntos decorativos visibles), cuello redondo amarillo con ribete blanco, ribete blanco sobre los hombros y dorsales en negro en la espalda.",
+      "pantaloneta": "Verde a juego con detalle amarillo en el borde inferior izquierdo.",
+      "medias": "Verdes."
+    },
+    "san_cristobal_y_nieves_portero": {
+      "estado": "confirmado",
+      "titular": "Julani Archibald (#18, capitán)",
+      "camiseta": "Manga larga naranja fluorescente con dorsal #18 en negro contorneado y brazalete de capitán blanco/amarillo en la manga derecha.",
+      "pantaloneta": "Negra (usada sobre licra térmica negra).",
+      "medias": "Naranjas.",
+      "guantes": "Negros."
+    }
+  },
+  "enlaces_oficiales_referencia": {
+    "estado": "confirmado",
+    "fifa_match_api_es": "https://api.fifa.com/api/v3/live/football/520/288301/288302/400017724?language=es",
+    "fifa_timeline_api_es": "https://api.fifa.com/api/v3/timelines/520/288301/288302/400017724?language=es",
+    "fifa_qualifiers_portal_es": "https://www.fifa.com/es/tournaments/mens/worldcup/canadamexicousa2026/qualifiers/concacaf",
+    "concacaf_match_centre_es": "https://es.concacaf.com/competitions/concacaf-qualifiers/matches/94968cbf476d4bfeb2a75732b5a38ef5/costa-rica-vs-st.-kitts-and-nevis",
+    "concacaf_roster_crc": "https://es.concacaf.com/competitions/concacaf-qualifiers/teams/costa-rica/roster",
+    "concacaf_roster_skn": "https://es.concacaf.com/competitions/concacaf-qualifiers/teams/st.-kitts-and-nevis/roster",
+    "fcrf_oficial": "https://www.fcrf.cr/",
+    "fcrf_tienda": "https://www.fcrf.cr/tienda",
+    "fcrf_galeria": "https://www.fcrf.cr/galer%C3%ADa",
+    "sknfa_cronica": "https://sknfa.com/sugar-boyz-fall-to-costa-rica-in-opening-world-cup-qualifier/"
+  },
+  "resumen_discrepancias_interfuentes": [
+    {
+      "tema": "Asistencia oficial",
+      "valor_adoptado": 15700,
+      "otros_valores": {
+        "Transfermarkt": 5150,
+        "EFE_Infobae": "unos 15.000"
+      },
+      "motivo": "FIFA, FotMob, ESPN y Wikipedia coinciden en 15.700; Transfermarkt replicó un error de origen en FIFA Stadium.CityName ('5150')."
+    },
+    {
+      "tema": "Director técnico de San Cristóbal y Nieves",
+      "valor_adoptado": "Francisco Molina",
+      "otros_valores": {
+        "FotMob": "Austin Huggins"
+      },
+      "motivo": "FIFA API (IdCoach 483207), Transfermarkt, EFE, Everardo Herrera y declaraciones en Radio Columbia confirman a Francisco Molina."
+    },
+    {
+      "tema": "Fecha calendario (CST vs UTC)",
+      "valor_adoptado": "2024-06-06 (20:30 local) / 2024-06-07 (02:30 UTC)",
+      "otros_valores": {
+        "plataformas_utc": "2024-06-07"
+      },
+      "motivo": "Las 20:30 en San José (UTC-6) corresponden a las 02:30 UTC del 7 de junio."
+    },
+    {
+      "tema": "Esquema táctico inicial de San Cristóbal y Nieves",
+      "valor_adoptado": "5-4-1",
+      "otros_valores": {
+        "Transfermarkt": "4-4-2 double 6"
+      },
+      "motivo": "FIFA API, FotMob y ESPN registran línea de cinco atrás (5-4-1), coincidente con las crónicas de cancha."
+    },
+    {
+      "tema": "Redondeo de precisión de pases",
+      "valor_adoptado": "CRC 483/571 (84.59%, FotMob muestra 85%); SKN 221/300 (73.67%, FotMob muestra 74%)",
+      "otros_valores": {
+        "ESPN_resumen_web": "84% / 73%"
+      },
+      "motivo": "Diferencia de truncamiento frente a redondeo estándar sobre exactamente los mismos cocientes."
+    },
+    {
+      "tema": "Minutos de goles y cambios",
+      "valor_adoptado": "Goles: 40', 49', 82', 84' (FIFA Timeline / ESPN / FotMob / Transfermarkt)",
+      "otros_valores": {
+        "FIFA_HomeTeam_Goals_resumen": "39', 48', 82', 83'",
+        "La_Teja": "38', 48' (Galo)",
+        "La_Nacion": "39', 48' (Galo)",
+        "SKNFA_Wikipedia_EFE": "50' (2-0 Galo); 83' (3-0 Alcócer en SKNFA/Wiki)",
+        "PuroPeriodismo": "81' (3-0 Alcócer)"
+      },
+      "motivo": "El arreglo resumen Goals/Substitutions de FIFA redondea el minuto hacia abajo (p. ej. 2344 s -> 39' en lugar de 40'), mientras FIFA Timeline, ESPN (reloj en segundos) y Opta/FotMob reportan el minuto en curso."
+    }
+  ]
+}

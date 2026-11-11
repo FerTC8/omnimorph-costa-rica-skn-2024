@@ -1,0 +1,529 @@
+{
+  "meta": {
+    "partido": "Costa Rica 4-0 San Cristóbal y Nieves",
+    "fecha_local": "2024-06-06",
+    "leyenda_coordenadas_fifa_norm": {
+      "estado": "confirmado",
+      "fuente": "FIFA IFES Timeline (y equivalente Opta/ESPN keyEvents)",
+      "convencion_ejes": "x_0_100: 0 = línea de gol propia, 100 = línea de gol rival en dirección del ataque. y_0_100: mirando hacia portería rival, 0 = banda derecha, 50 = centro, 100 = banda izquierda."
+    }
+  },
+  "goles": [
+    {
+      "numero": 1,
+      "marcador_parcial": "1-0",
+      "equipo": "Costa Rica",
+      "codigo": "CRC",
+      "minuto_oficial": 40,
+      "reloj_espn_segundos": 2344,
+      "timestamp_fifa_utc": "2024-06-07T03:18:58.151Z",
+      "variantes_minuto_fuentes": {
+        "FIFA_Timeline_ESPN_FotMob_TM_Everardo_SKNFA_Wiki": "40'",
+        "FIFA_HomeTeam_Goals_resumen_La_Nacion_PuroPeriodismo": "39'",
+        "La_Teja": "38'"
+      },
+      "autor": {
+        "dorsal": 14,
+        "nombre": "Orlando Galo"
+      },
+      "asistencia": {
+        "dorsal": 13,
+        "nombre": "Jefferson Brenes"
+      },
+      "parte_del_cuerpo": "Cabeza",
+      "zona_remate_fuente_oficial": {
+        "estado": "confirmado",
+        "descripcion_opta_espn": "Cabezazo desde el sector izquierdo del área chica hacia la esquina inferior izquierda.",
+        "coordenadas_fifa_norm": {
+          "x_0_100": 95.1,
+          "y_0_100": 56.3
+        }
+      },
+      "zona_aproximada_tactica": {
+        "estado": "estimacion_tactica",
+        "descripcion": "Área pequeña, sector centro-izquierdo (~5 m de la línea de gol)."
+      },
+      "gestacion_jugada": {
+        "estado": "confirmado",
+        "descripcion": "Tras un saque de banda en campo rival (reportado por SKNFA), Jefferson Brenes envió un centro largo desde la banda derecha; la salida de Julani Archibald resultó deficiente y Orlando Galo llegó sorpresivamente desde segunda línea para conectar de cabeza."
+      }
+    },
+    {
+      "numero": 2,
+      "marcador_parcial": "2-0",
+      "equipo": "Costa Rica",
+      "codigo": "CRC",
+      "minuto_oficial": 49,
+      "reloj_espn_segundos": 2926,
+      "timestamp_fifa_utc": "2024-06-07T03:50:14.677Z",
+      "variantes_minuto_fuentes": {
+        "FIFA_Timeline_ESPN_FotMob_TM": "49'",
+        "FIFA_HomeTeam_Goals_resumen_La_Nacion_La_Teja_PuroPeriodismo": "48'",
+        "SKNFA_Everardo_EFE_Wiki": "50'"
+      },
+      "autor": {
+        "dorsal": 14,
+        "nombre": "Orlando Galo"
+      },
+      "asistencia": {
+        "dorsal": 9,
+        "nombre": "Manfred Ugalde"
+      },
+      "parte_del_cuerpo": "Pie izquierdo",
+      "zona_remate_fuente_oficial": {
+        "estado": "confirmado",
+        "descripcion_opta_espn": "Remate con pie izquierdo desde fuera del área a la esquina inferior izquierda.",
+        "coordenadas_fifa_norm": {
+          "x_0_100": 79.6,
+          "y_0_100": 60.5
+        }
+      },
+      "zona_aproximada_tactica": {
+        "estado": "estimacion_tactica",
+        "descripcion": "Frontal / media luna del área, cargado ligeramente hacia perfil centro-izquierdo."
+      },
+      "gestacion_jugada": {
+        "estado": "confirmado",
+        "descripcion": "Acción iniciada por sector derecho; Manfred Ugalde cedió un pase atrasado al borde del área para la llegada de frente de Orlando Galo, quien conectó un zurdazo rastrero junto al palo izquierdo."
+      }
+    },
+    {
+      "numero": 3,
+      "marcador_parcial": "3-0",
+      "equipo": "Costa Rica",
+      "codigo": "CRC",
+      "minuto_oficial": 82,
+      "reloj_espn_segundos": 4904,
+      "timestamp_fifa_utc": "2024-06-07T04:23:12.273Z",
+      "variantes_minuto_fuentes": {
+        "FIFA_Timeline_FIFA_Goals_ESPN_FotMob_TM_Everardo_EFE": "82'",
+        "SKNFA_Wiki": "83'",
+        "PuroPeriodismo": "81'"
+      },
+      "autor": {
+        "dorsal": 20,
+        "nombre": "Josimar Alcócer"
+      },
+      "asistencia": null,
+      "parte_del_cuerpo": "Pie derecho",
+      "zona_remate_fuente_oficial": {
+        "estado": "confirmado",
+        "descripcion_opta_espn": "Remate de pierna derecha desde el centro del área al centro de la portería (sin asistencia).",
+        "coordenadas_fifa_norm": {
+          "x_0_100": 94.2,
+          "y_0_100": 48.5
+        }
+      },
+      "zona_aproximada_tactica": {
+        "estado": "estimacion_tactica",
+        "descripcion": "Zona central del área pequeña frente al arco rival."
+      },
+      "gestacion_jugada": {
+        "estado": "confirmado",
+        "descripcion": "Presión alta inmediata de Josimar Alcócer sobre el portero Julani Archibald cuando intentaba despejar; el arquero estrelló el balón en el cuerpo del extremo costarricense (error registrado en Opta/FotMob) y Alcócer empujó el rebote al fondo con arco abierto. Primer gol internacional de Alcócer con la selección mayor."
+      }
+    },
+    {
+      "numero": 4,
+      "marcador_parcial": "4-0",
+      "equipo": "Costa Rica",
+      "codigo": "CRC",
+      "minuto_oficial": 84,
+      "reloj_espn_segundos": 5006,
+      "timestamp_fifa_utc": "2024-06-07T04:24:53.911Z",
+      "variantes_minuto_fuentes": {
+        "FIFA_Timeline_ESPN_FotMob_TM_Everardo_EFE_SKNFA_Wiki": "84'",
+        "FIFA_HomeTeam_Goals_resumen": "83'"
+      },
+      "autor": {
+        "dorsal": 19,
+        "nombre": "Andy Rojas"
+      },
+      "asistencia": {
+        "dorsal": 12,
+        "nombre": "Joel Campbell"
+      },
+      "parte_del_cuerpo": "Pie derecho",
+      "zona_remate_fuente_oficial": {
+        "estado": "confirmado",
+        "descripcion_opta_espn": "Remate con pie derecho desde el centro del área a la esquina inferior derecha.",
+        "coordenadas_fifa_norm": {
+          "x_0_100": 86.5,
+          "y_0_100": 41.5
+        }
+      },
+      "zona_aproximada_tactica": {
+        "estado": "estimacion_tactica",
+        "descripcion": "Interior centro-derecho del área grande."
+      },
+      "gestacion_jugada": {
+        "estado": "confirmado",
+        "descripcion": "Pase filtrado en profundidad de Joel Campbell entre la defensa fatigada de San Cristóbal y Nieves; Andy Rojas (18 años, debutante) atacó el espacio en velocidad y definió cruzado y raso de derecha."
+      }
+    }
+  ],
+  "tarjetas_amarillas": [
+    {
+      "estado": "confirmado",
+      "equipo": "San Cristóbal y Nieves",
+      "codigo": "SKN",
+      "dorsal": 22,
+      "jugador": "Omari Sterling-James",
+      "minuto": "26'",
+      "minuto_num": 26,
+      "minuto_fifa_bookings": "25'",
+      "timestamp_utc": "2024-06-07T03:05:05.389Z",
+      "motivo": "Falta sobre Álvaro Zamora en banda izquierda de Costa Rica (ESPN/TM)."
+    },
+    {
+      "estado": "confirmado",
+      "equipo": "San Cristóbal y Nieves",
+      "codigo": "SKN",
+      "dorsal": 5,
+      "jugador": "Jameel Ible",
+      "minuto": "45'+4'",
+      "minuto_num": 49,
+      "minuto_fifa_bookings": "45'+3'",
+      "timestamp_utc": "2024-06-07T03:27:56.502Z",
+      "motivo": "Amonestado en reposición del primer tiempo (Transfermarkt registra protesta / reclamo)."
+    },
+    {
+      "estado": "confirmado",
+      "equipo": "Costa Rica",
+      "codigo": "CRC",
+      "dorsal": 13,
+      "jugador": "Jefferson Brenes",
+      "minuto": "58'",
+      "minuto_num": 58,
+      "minuto_fifa_bookings": "58'",
+      "timestamp_utc": "2024-06-07T03:59:15.716Z",
+      "motivo": "Amonestado al 58' (Transfermarkt registra protesta / reclamo)."
+    },
+    {
+      "estado": "confirmado",
+      "equipo": "San Cristóbal y Nieves",
+      "codigo": "SKN",
+      "dorsal": 6,
+      "jugador": "Lois Maynard",
+      "minuto": "63'",
+      "minuto_num": 63,
+      "minuto_fifa_bookings": "62'",
+      "timestamp_utc": "2024-06-07T04:03:58.892Z",
+      "motivo": "Falta sobre Warren Madrigal (ESPN/TM)."
+    }
+  ],
+  "tarjetas_rojas": [],
+  "penales": [],
+  "sustituciones": [
+    {
+      "orden": 1,
+      "estado": "confirmado",
+      "equipo": "San Cristóbal y Nieves",
+      "codigo": "SKN",
+      "minuto": 53,
+      "minuto_fifa_array": 52,
+      "timestamp_utc": "2024-06-07T03:54:02.647Z",
+      "entra": {
+        "dorsal": 9,
+        "nombre": "Harrison Panayiotou"
+      },
+      "sale": {
+        "dorsal": 11,
+        "nombre": "Kimaree Rogers"
+      }
+    },
+    {
+      "orden": 2,
+      "estado": "confirmado",
+      "equipo": "Costa Rica",
+      "codigo": "CRC",
+      "minuto": 64,
+      "minuto_fifa_array": 63,
+      "timestamp_utc": "2024-06-07T04:05:28.502Z",
+      "entra": {
+        "dorsal": 10,
+        "nombre": "Brandon Aguilera"
+      },
+      "sale": {
+        "dorsal": 13,
+        "nombre": "Jefferson Brenes"
+      }
+    },
+    {
+      "orden": 3,
+      "estado": "confirmado",
+      "equipo": "Costa Rica",
+      "codigo": "CRC",
+      "minuto": 65,
+      "minuto_fifa_array": 63,
+      "timestamp_utc": "2024-06-07T04:05:48.234Z",
+      "entra": {
+        "dorsal": 20,
+        "nombre": "Josimar Alcócer"
+      },
+      "sale": {
+        "dorsal": 17,
+        "nombre": "Warren Madrigal"
+      }
+    },
+    {
+      "orden": 4,
+      "estado": "confirmado",
+      "equipo": "San Cristóbal y Nieves",
+      "codigo": "SKN",
+      "minuto": 77,
+      "minuto_fifa_array": 76,
+      "timestamp_utc": "2024-06-07T04:17:50.878Z",
+      "entra": {
+        "dorsal": 8,
+        "nombre": "Yohannes Mitchum"
+      },
+      "sale": {
+        "dorsal": 14,
+        "nombre": "Tyquan Terrell"
+      }
+    },
+    {
+      "orden": 5,
+      "estado": "confirmado",
+      "equipo": "San Cristóbal y Nieves",
+      "codigo": "SKN",
+      "minuto": 77,
+      "minuto_fifa_array": 75,
+      "timestamp_utc": "2024-06-07T04:18:04.083Z",
+      "entra": {
+        "dorsal": 20,
+        "nombre": "Diego Edwards"
+      },
+      "sale": {
+        "dorsal": 19,
+        "nombre": "Romaine Sawyers"
+      }
+    },
+    {
+      "orden": 6,
+      "estado": "confirmado",
+      "equipo": "San Cristóbal y Nieves",
+      "codigo": "SKN",
+      "minuto": 77,
+      "minuto_fifa_array": 75,
+      "timestamp_utc": "2024-06-07T04:18:21.856Z",
+      "entra": {
+        "dorsal": 7,
+        "nombre": "G'Vaune Amory"
+      },
+      "sale": {
+        "dorsal": 10,
+        "nombre": "Tyrese Shade"
+      }
+    },
+    {
+      "orden": 7,
+      "estado": "confirmado",
+      "equipo": "Costa Rica",
+      "codigo": "CRC",
+      "minuto": 78,
+      "minuto_fifa_array": 76,
+      "timestamp_utc": "2024-06-07T04:18:29.774Z",
+      "entra": {
+        "dorsal": 2,
+        "nombre": "Gerald Taylor"
+      },
+      "sale": {
+        "dorsal": 22,
+        "nombre": "Haxzel Quirós"
+      }
+    },
+    {
+      "orden": 8,
+      "estado": "confirmado",
+      "equipo": "Costa Rica",
+      "codigo": "CRC",
+      "minuto": 78,
+      "minuto_fifa_array": 76,
+      "timestamp_utc": "2024-06-07T04:18:32.634Z",
+      "entra": {
+        "dorsal": 19,
+        "nombre": "Andy Rojas"
+      },
+      "sale": {
+        "dorsal": 21,
+        "nombre": "Álvaro Zamora"
+      }
+    },
+    {
+      "orden": 9,
+      "estado": "confirmado",
+      "equipo": "Costa Rica",
+      "codigo": "CRC",
+      "minuto": 81,
+      "minuto_fifa_array": 81,
+      "timestamp_utc": "2024-06-07T04:21:49.38Z",
+      "entra": {
+        "dorsal": 12,
+        "nombre": "Joel Campbell"
+      },
+      "sale": {
+        "dorsal": 9,
+        "nombre": "Manfred Ugalde"
+      }
+    },
+    {
+      "orden": 10,
+      "estado": "confirmado",
+      "equipo": "San Cristóbal y Nieves",
+      "codigo": "SKN",
+      "minuto": 85,
+      "minuto_fifa_array": 84,
+      "timestamp_utc": "2024-06-07T04:26:28.341Z",
+      "entra": {
+        "dorsal": 21,
+        "nombre": "Nequan Browne"
+      },
+      "sale": {
+        "dorsal": 22,
+        "nombre": "Omari Sterling-James"
+      }
+    }
+  ],
+  "momentos_clave": [
+    {
+      "minuto": "0'",
+      "tipo": "inicio",
+      "estado": "confirmado",
+      "descripcion": "Inicio real a las 20:39:53 hora local (02:39:53Z) bajo fuerte lluvia en el Estadio Nacional."
+    },
+    {
+      "minuto": "21'",
+      "tipo": "remate_bloqueado",
+      "estado": "confirmado",
+      "descripcion": "Primer remate de Costa Rica: disparo de Warren Madrigal bloqueado desde fuera del área tras descarga de Zamora (ESPN)."
+    },
+    {
+      "minuto": "24'",
+      "tipo": "poste",
+      "estado": "confirmado",
+      "descripcion": "Cabezazo de Francisco Calvo al travesaño tras tiro de esquina y centro de Ariel Lassiter (FIFA Timeline pos: 93.9, 45.0)."
+    },
+    {
+      "minuto": "26'",
+      "tipo": "amarilla",
+      "estado": "confirmado",
+      "descripcion": "Tarjeta amarilla a Omari Sterling-James (#22 SKN) por falta sobre Álvaro Zamora."
+    },
+    {
+      "minuto": "39'",
+      "tipo": "atajada",
+      "estado": "confirmado",
+      "descripcion": "Remate lejano de derecha de Manfred Ugalde atajado por Julani Archibald abajo a la derecha (FIFA Timeline pos: 1.8, 50.7)."
+    },
+    {
+      "minuto": "40'",
+      "tipo": "gol",
+      "estado": "confirmado",
+      "descripcion": "1-0 Costa Rica: cabezazo de Orlando Galo tras centro desde la derecha de Jefferson Brenes."
+    },
+    {
+      "minuto": "44'",
+      "tipo": "atencion_medica",
+      "estado": "confirmado",
+      "descripcion": "Pausa breve por atención al arquero visitante Julani Archibald."
+    },
+    {
+      "minuto": "45'+4'",
+      "tipo": "amarilla",
+      "estado": "confirmado",
+      "descripcion": "Tarjeta amarilla a Jameel Ible (#5 SKN)."
+    },
+    {
+      "minuto": "45'+5'",
+      "tipo": "descanso",
+      "estado": "confirmado",
+      "descripcion": "Fin del primer tiempo (1-0) a las 03:29:01Z."
+    },
+    {
+      "minuto": "49'",
+      "tipo": "gol",
+      "estado": "confirmado",
+      "descripcion": "2-0 Costa Rica: zurdazo de Orlando Galo desde la frontal tras pase atrasado de Manfred Ugalde."
+    },
+    {
+      "minuto": "52'",
+      "tipo": "atajada",
+      "estado": "confirmado",
+      "descripcion": "Cabezazo de Orlando Galo en el centro del área atajado por Julani Archibald tras pase de Ugalde."
+    },
+    {
+      "minuto": "53'",
+      "tipo": "cambio",
+      "estado": "confirmado",
+      "descripcion": "Primer cambio del partido: Panayiotou entra por Rogers (SKN)."
+    },
+    {
+      "minuto": "58'",
+      "tipo": "amarilla",
+      "estado": "confirmado",
+      "descripcion": "Tarjeta amarilla a Jefferson Brenes (#13 CRC)."
+    },
+    {
+      "minuto": "63'",
+      "tipo": "amarilla",
+      "estado": "confirmado",
+      "descripcion": "Tarjeta amarilla a Lois Maynard (#6 SKN)."
+    },
+    {
+      "minuto": "64'-65'",
+      "tipo": "cambio",
+      "estado": "confirmado",
+      "descripcion": "Doble relevo en Costa Rica: Aguilera por Brenes (64') y Alcócer por Madrigal (65')."
+    },
+    {
+      "minuto": "71'",
+      "tipo": "atajada",
+      "estado": "confirmado",
+      "descripcion": "Tiro lejano de Álvaro Zamora al ángulo superior derecho desviado al córner por Archibald."
+    },
+    {
+      "minuto": "73'",
+      "tipo": "atajada",
+      "estado": "confirmado",
+      "descripcion": "Único remate a puerta de San Cristóbal y Nieves: disparo de Romaine Sawyers desde fuera del área atajado abajo por Patrick Sequeira (FIFA Timeline pos: 2.9, 49.0)."
+    },
+    {
+      "minuto": "74'",
+      "tipo": "poste",
+      "estado": "confirmado",
+      "descripcion": "Remate de derecha de Manfred Ugalde desde el centro del área que se estrella en el travesaño tras pase de Haxzel Quirós (FIFA Timeline pos: 86.4, 42.5)."
+    },
+    {
+      "minuto": "76'",
+      "tipo": "ocasion_clara",
+      "estado": "confirmado",
+      "descripcion": "Mano a mano de Álvaro Zamora desde el sector izquierdo del área que pasa desviado al segundo palo tras pase filtrado de Brandon Aguilera."
+    },
+    {
+      "minuto": "77'-78'",
+      "tipo": "cambio",
+      "estado": "confirmado",
+      "descripcion": "Triple cambio en SKN (77': Mitchum, Edwards, Amory) y doble cambio en CRC (78': Taylor y Rojas)."
+    },
+    {
+      "minuto": "82'",
+      "tipo": "gol",
+      "estado": "confirmado",
+      "descripcion": "3-0 Costa Rica: Josimar Alcócer presiona al arquero Archibald, bloquea el despeje con el cuerpo y marca sin oposición."
+    },
+    {
+      "minuto": "84'",
+      "tipo": "gol",
+      "estado": "confirmado",
+      "descripcion": "4-0 Costa Rica: Andy Rojas define raso al palo derecho tras pase filtrado de Joel Campbell."
+    },
+    {
+      "minuto": "90'+5'",
+      "tipo": "final",
+      "estado": "confirmado",
+      "descripcion": "Cierre oficial del encuentro (4-0) a las 04:35:52Z."
+    }
+  ]
+}

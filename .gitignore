@@ -1,0 +1,28 @@
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Python y caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Variables de entorno
+.env
+.env*
+
+# Editores y temporales
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+*.bak
+.cache/
+tmp/
+scratch/
+.system_generated/
+GEMINI.md
