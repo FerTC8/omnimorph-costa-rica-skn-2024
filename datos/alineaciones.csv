@@ -1,0 +1,47 @@
+equipo,codigo,director_tecnico,esquema_inicial,dorsal,nombre,nombre_fifa,posicion_linea,rol_tactico,capitan,titular,participo,entro_minuto,salio_minuto,minutos_jugados,goles,asistencias,tarjeta_amarilla,tarjeta_roja,fifa_id_player,estado
+Costa Rica,CRC,Gustavo Alfaro,3-4-3 / 3-4-2-1,3,Jeyland Mitchell,Jeyland MITCHELL,DEF,Defensa central derecho,false,true,true,,,90,0,0,,,448266,confirmado
+Costa Rica,CRC,Gustavo Alfaro,3-4-3 / 3-4-2-1,6,Julio Cascante,Julio CASCANTE,DEF,Defensa central (líbero),false,true,true,,,90,0,0,,,480300,confirmado
+Costa Rica,CRC,Gustavo Alfaro,3-4-3 / 3-4-2-1,9,Manfred Ugalde,Manfred UGALDE,DEL,Delantero centro con movilidad,false,true,true,,81,81,0,1,,,480328,confirmado
+Costa Rica,CRC,Gustavo Alfaro,3-4-3 / 3-4-2-1,11,Ariel Lassiter,Ariel LASSITER,MED,Carrilero izquierdo,false,true,true,,,90,0,0,,,482533,confirmado
+Costa Rica,CRC,Gustavo Alfaro,3-4-3 / 3-4-2-1,13,Jefferson Brenes,Jefferson BRENES,MED,Mediocentro (contención derecho),false,true,true,,64,64,0,1,58',,430026,confirmado
+Costa Rica,CRC,Gustavo Alfaro,3-4-3 / 3-4-2-1,14,Orlando Galo,Orlando GALO,MED,"Mediocentro (contención izquierdo, box-to-box)",false,true,true,,,90,2,0,,,405813,confirmado
+Costa Rica,CRC,Gustavo Alfaro,3-4-3 / 3-4-2-1,15,Francisco Calvo,Francisco CALVO,DEF,Defensa central izquierdo (Capitán),true,true,true,,,90,0,0,,,339797,confirmado
+Costa Rica,CRC,Gustavo Alfaro,3-4-3 / 3-4-2-1,17,Warren Madrigal,Warren MADRIGAL,DEL,Mediapunta / extremo derecho,false,true,true,,65,65,0,0,,,466690,confirmado
+Costa Rica,CRC,Gustavo Alfaro,3-4-3 / 3-4-2-1,21,Álvaro Zamora,Alvaro ZAMORA,DEL,Mediapunta / extremo izquierdo,false,true,true,,78,78,0,0,,,448271,confirmado
+Costa Rica,CRC,Gustavo Alfaro,3-4-3 / 3-4-2-1,22,Haxzel Quirós,Haxzel QUIROS,MED,Carrilero derecho,false,true,true,,78,78,0,0,,,480302,confirmado
+Costa Rica,CRC,Gustavo Alfaro,3-4-3 / 3-4-2-1,23,Patrick Sequeira,Patrick SEQUEIRA,POR,Portero titular,false,true,true,,,90,0,0,,,389723,confirmado
+Costa Rica,CRC,Gustavo Alfaro,3-4-3 / 3-4-2-1,1,Kevin Chamorro,Kevin CHAMORRO,POR,Portero suplente,false,false,false,,,0,0,0,,,405808,confirmado
+Costa Rica,CRC,Gustavo Alfaro,3-4-3 / 3-4-2-1,2,Gerald Taylor,Gerald TAYLOR,DEF,Carrilero derecho,false,false,true,78,,12,0,0,,,482531,confirmado
+Costa Rica,CRC,Gustavo Alfaro,3-4-3 / 3-4-2-1,4,Juan Pablo Vargas,Juan VARGAS,DEF,Defensa central suplente,false,false,false,,,0,0,0,,,411350,confirmado
+Costa Rica,CRC,Gustavo Alfaro,3-4-3 / 3-4-2-1,5,Fernán Faerron,Fernan FAERRON,DEF,Defensa central suplente,false,false,false,,,0,0,0,,,405793,confirmado
+Costa Rica,CRC,Gustavo Alfaro,3-4-3 / 3-4-2-1,7,Anthony Contreras,Anthony CONTRERAS,DEL,Delantero suplente,false,false,false,,,0,0,0,,,405811,confirmado
+Costa Rica,CRC,Gustavo Alfaro,3-4-3 / 3-4-2-1,8,Joseph Mora,Joseph MORA,DEF,Lateral / carrilero izquierdo suplente,false,false,false,,,0,0,0,,,307537,confirmado
+Costa Rica,CRC,Gustavo Alfaro,3-4-3 / 3-4-2-1,10,Brandon Aguilera,Brandon AGUILERA,MED,Mediocentro / volante creativo,false,false,true,64,,26,0,0,,,441294,confirmado
+Costa Rica,CRC,Gustavo Alfaro,3-4-3 / 3-4-2-1,12,Joel Campbell,Joel CAMPBELL,DEL,Delantero / mediapunta,false,false,true,81,,9,0,1,,,307529,confirmado
+Costa Rica,CRC,Gustavo Alfaro,3-4-3 / 3-4-2-1,16,Alejandro Bran,Alejandro BRAN,MED,Mediocentro suplente,false,false,false,,,0,0,0,,,448273,confirmado
+Costa Rica,CRC,Gustavo Alfaro,3-4-3 / 3-4-2-1,18,Aarón Cruz,Aaron CRUZ,POR,Portero suplente,false,false,false,,,0,0,0,,,273720,confirmado
+Costa Rica,CRC,Gustavo Alfaro,3-4-3 / 3-4-2-1,19,Andy Rojas,Andy ROJAS,DEL,Mediapunta / extremo izquierdo,false,false,true,78,,12,1,0,,,486252,confirmado
+Costa Rica,CRC,Gustavo Alfaro,3-4-3 / 3-4-2-1,20,Josimar Alcócer,Josimar ALCOCER,DEL,Extremo / mediapunta derecho,false,false,true,65,,25,1,0,,,448280,confirmado
+San Cristóbal y Nieves,SKN,Francisco Molina,5-4-1,3,Ethan Bristow,Ethan BRISTOW,DEF,Carrilero / lateral izquierdo,false,true,true,,,90,0,0,,,481120,confirmado
+San Cristóbal y Nieves,SKN,Francisco Molina,5-4-1,4,Andre Burley,Andre BURLEY,DEF,Defensa central derecho,false,true,true,,,90,0,0,,,466175,confirmado
+San Cristóbal y Nieves,SKN,Francisco Molina,5-4-1,5,Jameel Ible,Jameel Ible,DEF,Defensa central izquierdo,false,true,true,,,90,0,0,45'+4',,390629,confirmado
+San Cristóbal y Nieves,SKN,Francisco Molina,5-4-1,6,Lois Maynard,Lois MAYNARD,DEF,Defensa central (líbero),false,true,true,,,90,0,0,63',,431418,confirmado
+San Cristóbal y Nieves,SKN,Francisco Molina,5-4-1,10,Tyrese Shade,Tyrese SHADE,DEL,Volante / extremo izquierdo,false,true,true,,77,77,0,0,,,466210,confirmado
+San Cristóbal y Nieves,SKN,Francisco Molina,5-4-1,11,Kimaree Rogers,Kimaree ROGERS,DEL,Volante / extremo derecho,false,true,true,,53,53,0,0,,,466177,confirmado
+San Cristóbal y Nieves,SKN,Francisco Molina,5-4-1,14,Tyquan Terrell,Tyquan TERRELL,MED,Mediocentro izquierdo,false,true,true,,77,77,0,0,,,466186,confirmado
+San Cristóbal y Nieves,SKN,Francisco Molina,5-4-1,15,Mervin Lewis,Mervin LEWIS,MED,Mediocentro derecho,false,true,true,,,90,0,0,,,423502,confirmado
+San Cristóbal y Nieves,SKN,Francisco Molina,5-4-1,18,Julani Archibald,Julani ARCHIBALD,POR,Portero titular (Capitán),true,true,true,,,90,0,0,,,295260,confirmado
+San Cristóbal y Nieves,SKN,Francisco Molina,5-4-1,19,Romaine Sawyers,Romaine SAWYERS,MED,Delantero centro / enlace adelantado,false,true,true,,77,77,0,0,,,387880,confirmado
+San Cristóbal y Nieves,SKN,Francisco Molina,5-4-1,22,Omari Sterling-James,Omari STERLING-JAMES,DEF,Carrilero / lateral derecho,false,true,true,,85,85,0,0,26',,466209,confirmado
+San Cristóbal y Nieves,SKN,Francisco Molina,5-4-1,1,Kai Trotman,Kai Jalen FRANCOIS TROTMAN,POR,Portero suplente (FIFA: Kai Jalen Francois Trotman),false,false,false,,,0,0,0,,,485374,confirmado
+San Cristóbal y Nieves,SKN,Francisco Molina,5-4-1,2,Malique Roberts,Malique ROBERTS,DEF,Defensa suplente,false,false,false,,,0,0,0,,,466240,confirmado
+San Cristóbal y Nieves,SKN,Francisco Molina,5-4-1,7,G'Vaune Amory,Gvaune AMORY,MED,Volante ofensivo / extremo izquierdo (FIFA: Gvaune Amory),false,false,true,77,,13,0,0,,,422367,confirmado
+San Cristóbal y Nieves,SKN,Francisco Molina,5-4-1,8,Yohannes Mitchum,Yohannes MITCHUM,MED,Mediocentro,false,false,true,77,,13,0,0,,,466242,confirmado
+San Cristóbal y Nieves,SKN,Francisco Molina,5-4-1,9,Harrison Panayiotou,Harrison PANAYIOTOU,DEL,Extremo / delantero derecho (alias: Harry Panayiotou),false,false,true,53,,37,0,0,,,387864,confirmado
+San Cristóbal y Nieves,SKN,Francisco Molina,5-4-1,12,Tyrique Davis,Tyrique DAVIS,DEF,Defensa suplente,false,false,false,,,0,0,0,,,486722,confirmado
+San Cristóbal y Nieves,SKN,Francisco Molina,5-4-1,13,Jal'Den Myers,Jalden MYERS,DEF,Defensa suplente (FIFA: Jalden Myers),false,false,false,,,0,0,0,,,481118,confirmado
+San Cristóbal y Nieves,SKN,Francisco Molina,5-4-1,16,Yusuf Saunders,Yusuf Chadajo SAUNDERS,DEF,Defensa suplente (FIFA: Yusuf Chadajo Saunders),false,false,false,,,0,0,0,,,485392,confirmado
+San Cristóbal y Nieves,SKN,Francisco Molina,5-4-1,17,Gabriel Vanterpool,Gabriel VANTERPOOL,DEL,Delantero suplente,false,false,false,,,0,0,0,,,485331,confirmado
+San Cristóbal y Nieves,SKN,Francisco Molina,5-4-1,20,Diego Edwards,Diego EDWARDS,DEL,Delantero centro,false,false,true,77,,13,0,0,,,481102,confirmado
+San Cristóbal y Nieves,SKN,Francisco Molina,5-4-1,21,Nequan Browne,Nequan BROWNE,MED,Carrilero / volante derecho,false,false,true,85,,5,0,0,,,481135,confirmado
+San Cristóbal y Nieves,SKN,Francisco Molina,5-4-1,23,Vibert Stephen,Vibert STEPHEN,POR,Portero suplente,false,false,false,,,0,0,0,,,485276,confirmado

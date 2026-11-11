@@ -1,0 +1,263 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" width="1200" height="760" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow-amber" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#f59e0b" />
+    </marker>
+    <marker id="arrow-sky" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#38bdf8" />
+    </marker>
+    <marker id="arrow-yellow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#facc15" />
+    </marker>
+  </defs>
+
+  <!-- Outer card (safe on GitHub light & dark mode) -->
+  <rect x="1" y="1" width="1198" height="758" rx="14" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2" />
+
+  <!-- Header -->
+  <text x="36" y="42" font-size="22" font-weight="700" fill="#0f172a">Esquemas tácticos y ajustes — Costa Rica 4-0 San Cristóbal y Nieves</text>
+  <text x="36" y="66" font-size="13" fill="#475569">Eliminatorias Concacaf 2026 · Grupo B, Jornada 1 · 6 de junio de 2024 · Estadio Nacional de Costa Rica, San José</text>
+
+  <rect x="760" y="24" width="194" height="26" rx="13" fill="#dcfce7" stroke="#86efac" />
+  <text x="857" y="41" font-size="11" font-weight="600" fill="#166534" text-anchor="middle">confirmado: parados y roles</text>
+  <rect x="964" y="24" width="200" height="26" rx="13" fill="#fef3c7" stroke="#fcd34d" />
+  <text x="1064" y="41" font-size="11" font-weight="600" fill="#92400e" text-anchor="middle">estimacion_tactica: dinámica</text>
+
+  <!-- PANEL IZQUIERDO: COSTA RICA -->
+  <rect x="36" y="90" width="410" height="40" rx="8" fill="#c8102e" />
+  <text x="52" y="115" font-size="14" font-weight="700" fill="#ffffff">COSTA RICA (CRC) · DT: Gustavo Alfaro</text>
+  <text x="432" y="115" font-size="11" font-weight="600" fill="#fee2e2" text-anchor="end">3-4-3 / 3-4-2-1</text>
+
+  <!-- Campo CRC -->
+  <rect x="36" y="134" width="410" height="486" rx="6" fill="#166534" stroke="#94a3b8" stroke-width="1.5" />
+  <!-- Líneas de cancha CRC -->
+  <rect x="52" y="150" width="378" height="454" fill="none" stroke="#ffffff" stroke-opacity="0.45" stroke-width="1.5" />
+  <line x1="52" y1="377" x2="430" y2="377" stroke="#ffffff" stroke-opacity="0.4" stroke-width="1.5" />
+  <circle cx="241" cy="377" r="46" fill="none" stroke="#ffffff" stroke-opacity="0.4" stroke-width="1.5" />
+  <circle cx="241" cy="377" r="3" fill="#ffffff" fill-opacity="0.55" />
+  <!-- Área propia abajo -->
+  <rect x="131" y="528" width="220" height="76" fill="none" stroke="#ffffff" stroke-opacity="0.45" stroke-width="1.5" />
+  <rect x="186" y="576" width="110" height="28" fill="none" stroke="#ffffff" stroke-opacity="0.45" stroke-width="1.5" />
+  <!-- Área rival arriba -->
+  <rect x="131" y="150" width="220" height="76" fill="none" stroke="#ffffff" stroke-opacity="0.45" stroke-width="1.5" />
+  <rect x="186" y="150" width="110" height="28" fill="none" stroke="#ffffff" stroke-opacity="0.45" stroke-width="1.5" />
+  <text x="64" y="168" font-size="10" font-weight="600" fill="#bbf7d0">Ataque CRC ↑</text>
+  <text x="418" y="168" font-size="10" font-weight="600" fill="#fef3c7" text-anchor="end">Sin balón: 5-2-3</text>
+
+  <!-- Flechas tácticas CRC (estimacion_tactica) -->
+  <!-- Carrilero izquierdo repliegue y amplitud -->
+  <line x1="76" y1="322" x2="76" y2="466" stroke="#f59e0b" stroke-width="2" stroke-dasharray="5,4" marker-start="url(#arrow-amber)" marker-end="url(#arrow-amber)" />
+  <!-- Carrilero derecho repliegue y amplitud -->
+  <line x1="406" y1="322" x2="406" y2="466" stroke="#f59e0b" stroke-width="2" stroke-dasharray="5,4" marker-start="url(#arrow-amber)" marker-end="url(#arrow-amber)" />
+  <!-- Ruptura Galo segunda línea -->
+  <path d="M 184 378 Q 214 318 228 248" fill="none" stroke="#f59e0b" stroke-width="2.4" stroke-dasharray="6,4" marker-end="url(#arrow-amber)" />
+  <rect x="174" y="324" width="128" height="20" rx="4" fill="#0f172a" fill-opacity="0.82" />
+  <text x="238" y="338" font-size="10" font-weight="600" fill="#fcd34d" text-anchor="middle">Ruptura Galo (40', 49')</text>
+  <!-- Descenso asociativo Ugalde -->
+  <path d="M 260 194 Q 306 218 286 270" fill="none" stroke="#38bdf8" stroke-width="2.2" stroke-dasharray="5,4" marker-end="url(#arrow-sky)" />
+  <rect x="292" y="182" width="136" height="20" rx="4" fill="#0f172a" fill-opacity="0.82" />
+  <text x="360" y="196" font-size="10" font-weight="600" fill="#bae6fd" text-anchor="middle">Descenso Ugalde (35/39)</text>
+
+  <!-- Jugadores CRC -->
+  <!-- #23 Sequeira -->
+  <circle cx="241" cy="566" r="16" fill="#1e293b" stroke="#ffffff" stroke-width="2.5" />
+  <text x="241" y="571" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">23</text>
+  <text x="241" y="595" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">Sequeira</text>
+
+  <!-- 3 Centrales -->
+  <!-- #15 Calvo (C) -->
+  <circle cx="136" cy="494" r="16" fill="#c8102e" stroke="#ffffff" stroke-width="2.5" />
+  <text x="136" y="499" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">15</text>
+  <text x="136" y="523" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">Calvo (C)</text>
+  <!-- #6 Cascante -->
+  <circle cx="241" cy="500" r="16" fill="#c8102e" stroke="#ffffff" stroke-width="2.5" />
+  <text x="241" y="505" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">6</text>
+  <text x="241" y="529" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">Cascante</text>
+  <!-- #3 Mitchell -->
+  <circle cx="346" cy="494" r="16" fill="#c8102e" stroke="#ffffff" stroke-width="2.5" />
+  <text x="346" y="499" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
+  <text x="346" y="523" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">Mitchell</text>
+
+  <!-- Carrileros -->
+  <!-- #11 Lassiter -->
+  <circle cx="76" cy="364" r="16" fill="#c8102e" stroke="#ffffff" stroke-width="2.5" />
+  <text x="76" y="369" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">11</text>
+  <text x="76" y="393" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">Lassiter</text>
+  <!-- #22 Quirós -->
+  <circle cx="406" cy="364" r="16" fill="#c8102e" stroke="#ffffff" stroke-width="2.5" />
+  <text x="406" y="369" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">22</text>
+  <text x="406" y="393" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">Quirós</text>
+  <text x="406" y="406" font-size="9.5" fill="#fef08a" text-anchor="middle">78' #2 Taylor</text>
+
+  <!-- Doble contención -->
+  <!-- #14 Galo -->
+  <circle cx="176" cy="396" r="17" fill="#c8102e" stroke="#facc15" stroke-width="3" />
+  <text x="176" y="401" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">14</text>
+  <text x="176" y="426" font-size="11" font-weight="700" fill="#fef08a" text-anchor="middle">Galo (2G)</text>
+  <!-- #13 Brenes -->
+  <circle cx="306" cy="396" r="16" fill="#c8102e" stroke="#ffffff" stroke-width="2.5" />
+  <text x="306" y="401" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">13</text>
+  <text x="306" y="426" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">Brenes (1A)</text>
+  <text x="306" y="439" font-size="9.5" fill="#fef08a" text-anchor="middle">64' #10 Aguilera</text>
+
+  <!-- Mediapuntas -->
+  <!-- #21 Zamora -->
+  <circle cx="126" cy="264" r="16" fill="#c8102e" stroke="#ffffff" stroke-width="2.5" />
+  <text x="126" y="269" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">21</text>
+  <text x="126" y="292" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">Zamora</text>
+  <text x="126" y="305" font-size="9.5" fill="#fef08a" text-anchor="middle">78' #19 Rojas (G)</text>
+  <!-- #17 Madrigal -->
+  <circle cx="356" cy="264" r="16" fill="#c8102e" stroke="#ffffff" stroke-width="2.5" />
+  <text x="356" y="269" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">17</text>
+  <text x="356" y="292" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">Madrigal</text>
+  <text x="356" y="305" font-size="9.5" fill="#fef08a" text-anchor="middle">65' #20 Alcócer (G)</text>
+
+  <!-- Punta -->
+  <!-- #9 Ugalde -->
+  <circle cx="241" cy="184" r="16" fill="#c8102e" stroke="#ffffff" stroke-width="2.5" />
+  <text x="241" y="189" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">9</text>
+  <text x="241" y="212" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">Ugalde (1A)</text>
+  <text x="241" y="225" font-size="9.5" fill="#fef08a" text-anchor="middle">81' #12 Campbell (1A)</text>
+
+  <text x="36" y="638" font-size="11" fill="#334155">Posesión FIFA: 65.3% · Pases: 483/571 (85%) · Centros precisos: 6/19</text>
+
+  <!-- PANEL CENTRAL: SAN CRISTOBAL Y NIEVES -->
+  <rect x="470" y="90" width="410" height="40" rx="8" fill="#065f46" />
+  <text x="486" y="115" font-size="14" font-weight="700" fill="#ffffff">SAN CRISTÓBAL Y NIEVES (SKN)</text>
+  <text x="866" y="115" font-size="11" font-weight="600" fill="#fef08a" text-anchor="end">5-4-1 · DT: F. Molina</text>
+
+  <!-- Campo SKN -->
+  <rect x="470" y="134" width="410" height="486" rx="6" fill="#14532d" stroke="#94a3b8" stroke-width="1.5" />
+  <rect x="486" y="150" width="378" height="454" fill="none" stroke="#ffffff" stroke-opacity="0.45" stroke-width="1.5" />
+  <line x1="486" y1="377" x2="864" y2="377" stroke="#ffffff" stroke-opacity="0.4" stroke-width="1.5" />
+  <circle cx="675" cy="377" r="46" fill="none" stroke="#ffffff" stroke-opacity="0.4" stroke-width="1.5" />
+  <circle cx="675" cy="377" r="3" fill="#ffffff" fill-opacity="0.55" />
+  <rect x="565" y="528" width="220" height="76" fill="none" stroke="#ffffff" stroke-opacity="0.45" stroke-width="1.5" />
+  <rect x="620" y="576" width="110" height="28" fill="none" stroke="#ffffff" stroke-opacity="0.45" stroke-width="1.5" />
+  <rect x="565" y="150" width="220" height="76" fill="none" stroke="#ffffff" stroke-opacity="0.45" stroke-width="1.5" />
+  <rect x="620" y="150" width="110" height="28" fill="none" stroke="#ffffff" stroke-opacity="0.45" stroke-width="1.5" />
+  <text x="498" y="168" font-size="10" font-weight="600" fill="#bbf7d0">Ataque SKN ↑</text>
+  <text x="852" y="168" font-size="10" font-weight="600" fill="#fde68a" text-anchor="end">Bloque bajo compacto</text>
+
+  <!-- Zona sombreada de bloque bajo SKN -->
+  <rect x="496" y="376" width="358" height="164" rx="10" fill="#0f172a" fill-opacity="0.24" stroke="#facc15" stroke-opacity="0.55" stroke-dasharray="6,4" />
+  <text x="675" y="368" font-size="10" font-weight="600" fill="#fde047" text-anchor="middle">Bloque 5-4-1 cerrado (19 despejes · 14 intercepciones · 6 bloqueos)</text>
+
+  <!-- Juego directo SKN hacia Sawyers -->
+  <path d="M 675 544 Q 716 404 686 286" fill="none" stroke="#facc15" stroke-width="2" stroke-dasharray="5,4" marker-end="url(#arrow-yellow)" />
+  <rect x="694" y="320" width="144" height="20" rx="4" fill="#0f172a" fill-opacity="0.78" />
+  <text x="766" y="334" font-size="10" font-weight="600" fill="#fde047" text-anchor="middle">Envíos largos (24/61)</text>
+
+  <!-- Jugadores SKN -->
+  <!-- #18 Archibald (C) -->
+  <circle cx="675" cy="566" r="16" fill="#f97316" stroke="#111827" stroke-width="2.5" />
+  <text x="675" y="571" font-size="12" font-weight="700" fill="#111827" text-anchor="middle">18</text>
+  <text x="675" y="595" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">Archibald (C)</text>
+
+  <!-- Línea de 5 defensas -->
+  <!-- #3 Bristow -->
+  <circle cx="516" cy="488" r="15" fill="#009739" stroke="#facc15" stroke-width="2.2" />
+  <text x="516" y="493" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
+  <text x="516" y="516" font-size="10.5" font-weight="700" fill="#ffffff" text-anchor="middle">Bristow</text>
+  <!-- #5 Ible -->
+  <circle cx="594" cy="496" r="15" fill="#009739" stroke="#facc15" stroke-width="2.2" />
+  <text x="594" y="501" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">5</text>
+  <text x="594" y="524" font-size="10.5" font-weight="700" fill="#ffffff" text-anchor="middle">Ible</text>
+  <!-- #6 Maynard -->
+  <circle cx="675" cy="500" r="15" fill="#009739" stroke="#facc15" stroke-width="2.2" />
+  <text x="675" y="505" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">6</text>
+  <text x="675" y="528" font-size="10.5" font-weight="700" fill="#ffffff" text-anchor="middle">Maynard</text>
+  <!-- #4 Burley -->
+  <circle cx="756" cy="496" r="15" fill="#009739" stroke="#facc15" stroke-width="2.2" />
+  <text x="756" y="501" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">4</text>
+  <text x="756" y="524" font-size="10.5" font-weight="700" fill="#ffffff" text-anchor="middle">Burley</text>
+  <!-- #22 Sterling-James -->
+  <circle cx="834" cy="488" r="15" fill="#009739" stroke="#facc15" stroke-width="2.2" />
+  <text x="834" y="493" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">22</text>
+  <text x="834" y="516" font-size="10.5" font-weight="700" fill="#ffffff" text-anchor="middle">Sterling-J.</text>
+  <text x="834" y="528" font-size="9" fill="#fde047" text-anchor="middle">85' #21 Browne</text>
+
+  <!-- Línea de 4 medios -->
+  <!-- #10 Shade -->
+  <circle cx="526" cy="404" r="15" fill="#009739" stroke="#facc15" stroke-width="2.2" />
+  <text x="526" y="409" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">10</text>
+  <text x="526" y="432" font-size="10.5" font-weight="700" fill="#ffffff" text-anchor="middle">Shade</text>
+  <text x="526" y="444" font-size="9" fill="#fde047" text-anchor="middle">77' #7 Amory</text>
+  <!-- #14 Terrell -->
+  <circle cx="624" cy="410" r="15" fill="#009739" stroke="#facc15" stroke-width="2.2" />
+  <text x="624" y="415" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">14</text>
+  <text x="624" y="438" font-size="10.5" font-weight="700" fill="#ffffff" text-anchor="middle">Terrell</text>
+  <text x="624" y="450" font-size="9" fill="#fde047" text-anchor="middle">77' #8 Mitchum</text>
+  <!-- #15 Lewis -->
+  <circle cx="726" cy="410" r="15" fill="#009739" stroke="#facc15" stroke-width="2.2" />
+  <text x="726" y="415" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">15</text>
+  <text x="726" y="438" font-size="10.5" font-weight="700" fill="#ffffff" text-anchor="middle">Lewis</text>
+  <!-- #11 Rogers -->
+  <circle cx="824" cy="404" r="15" fill="#009739" stroke="#facc15" stroke-width="2.2" />
+  <text x="824" y="409" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">11</text>
+  <text x="824" y="432" font-size="10.5" font-weight="700" fill="#ffffff" text-anchor="middle">Rogers</text>
+  <text x="824" y="444" font-size="9" fill="#fde047" text-anchor="middle">53' #9 Panayiotou</text>
+
+  <!-- Punta -->
+  <!-- #19 Sawyers -->
+  <circle cx="675" cy="248" r="16" fill="#009739" stroke="#facc15" stroke-width="2.5" />
+  <text x="675" y="253" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">19</text>
+  <text x="675" y="276" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">Sawyers</text>
+  <text x="675" y="289" font-size="9.5" fill="#fde047" text-anchor="middle">77' #20 Edwards · 1 tiro a puerta (73')</text>
+
+  <text x="470" y="638" font-size="11" fill="#334155">Posesión FIFA: 34.7% · Pases: 221/300 (74%) · 0 tiros a puerta en 1T</text>
+
+  <!-- PANEL DERECHO: FASES Y AJUSTES -->
+  <rect x="904" y="90" width="260" height="530" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5" />
+  <rect x="904" y="90" width="260" height="40" rx="10" fill="#0f172a" />
+  <rect x="904" y="118" width="260" height="12" fill="#0f172a" />
+  <text x="920" y="115" font-size="14" font-weight="700" fill="#ffffff">Evolución táctica (0'-90'+)</text>
+
+  <!-- Fase 1 -->
+  <rect x="918" y="144" width="232" height="92" rx="6" fill="#f1f5f9" stroke="#e2e8f0" />
+  <text x="928" y="162" font-size="12" font-weight="700" fill="#0f172a">1. 0'-23' | Atasco bajo lluvia</text>
+  <text x="928" y="180" font-size="11" fill="#334155">CRC tiene 79% de posesión inicial</text>
+  <text x="928" y="196" font-size="11" fill="#334155">(La Nación), pero abusa del pase</text>
+  <text x="928" y="212" font-size="11" fill="#334155">largo. 0 remates hasta el 21';</text>
+  <text x="928" y="228" font-size="11" fill="#334155">cabezazo al poste de Calvo (24').</text>
+
+  <!-- Fase 2 -->
+  <rect x="918" y="246" width="232" height="96" rx="6" fill="#fef2f2" stroke="#fecaca" />
+  <text x="928" y="264" font-size="12" font-weight="700" fill="#991b1b">2. 24'-63' | Ajuste y 2-0</text>
+  <text x="928" y="282" font-size="11" fill="#334155">Alfaro pide calma y juego raso.</text>
+  <text x="928" y="298" font-size="11" fill="#334155">Galo rompe desde segunda línea</text>
+  <text x="928" y="314" font-size="11" fill="#334155">para el 1-0 (40', asist. Brenes)</text>
+  <text x="928" y="330" font-size="11" fill="#334155">y 2-0 (49', descarga de Ugalde).</text>
+
+  <!-- Fase 3 -->
+  <rect x="918" y="352" width="232" height="92" rx="6" fill="#fffbeb" stroke="#fde68a" />
+  <text x="928" y="370" font-size="12" font-weight="700" fill="#92400e">3. 64'-76' | Piernas frescas</text>
+  <text x="928" y="388" font-size="11" fill="#334155">Entran Aguilera (64') y Alcócer</text>
+  <text x="928" y="404" font-size="11" fill="#334155">(65'). Sequeira tapa a Sawyers</text>
+  <text x="928" y="420" font-size="11" fill="#334155">(73'), Ugalde da en el poste (74')</text>
+  <text x="928" y="436" font-size="11" fill="#334155">y Zamora falla mano a mano (76').</text>
+
+  <!-- Fase 4 -->
+  <rect x="918" y="454" width="232" height="96" rx="6" fill="#f0fdf4" stroke="#bbf7d0" />
+  <text x="928" y="472" font-size="12" font-weight="700" fill="#166534">4. 77'-90'+ | Quiebre y 4-0</text>
+  <text x="928" y="490" font-size="11" fill="#334155">Triple relevo SKN (77') por fatiga.</text>
+  <text x="928" y="506" font-size="11" fill="#334155">CRC suma a Taylor, Rojas y</text>
+  <text x="928" y="522" font-size="11" fill="#334155">Campbell: presión alta (3-0, 82')</text>
+  <text x="928" y="538" font-size="11" fill="#334155">y pase filtrado (4-0, 84').</text>
+
+  <!-- Leyenda compacta -->
+  <circle cx="930" cy="570" r="6" fill="#c8102e" />
+  <text x="944" y="574" font-size="11" fill="#334155">Titular CRC</text>
+  <circle cx="1044" cy="570" r="6" fill="#009739" stroke="#facc15" stroke-width="1.5" />
+  <text x="1058" y="574" font-size="11" fill="#334155">Titular SKN</text>
+  <circle cx="930" cy="594" r="6" fill="#f97316" stroke="#111827" stroke-width="1.5" />
+  <text x="944" y="598" font-size="11" fill="#334155">Portero SKN</text>
+  <line x1="1036" y1="594" x2="1056" y2="594" stroke="#f59e0b" stroke-width="2" stroke-dasharray="4,3" />
+  <text x="1062" y="598" font-size="11" fill="#334155">Lectura táctica</text>
+
+  <!-- Footer KPI bar -->
+  <rect x="36" y="658" width="1128" height="76" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5" />
+  <text x="56" y="684" font-size="12" font-weight="700" fill="#0f172a">Comparativa confirmada (Total partido · FotMob/Opta y FIFA):</text>
+  <text x="56" y="706" font-size="12" fill="#334155">Tiros totales: <tspan font-weight="700" fill="#c8102e">23</tspan> vs <tspan font-weight="700" fill="#065f46">5</tspan>   ·   A puerta: <tspan font-weight="700" fill="#c8102e">7</tspan> vs <tspan font-weight="700" fill="#065f46">1</tspan>   ·   Grandes ocasiones: <tspan font-weight="700" fill="#c8102e">5</tspan> vs <tspan font-weight="700" fill="#065f46">0</tspan>   ·   Toques área rival: <tspan font-weight="700" fill="#c8102e">29</tspan> vs <tspan font-weight="700" fill="#065f46">7</tspan></text>
+  <text x="56" y="724" font-size="12" fill="#334155">Duelos ganados: <tspan font-weight="700" fill="#c8102e">57</tspan> vs <tspan font-weight="700" fill="#065f46">38</tspan> (aéreos <tspan font-weight="700">67%</tspan> CRC)   ·   Recuperaciones: <tspan font-weight="700" fill="#c8102e">62</tspan> vs <tspan font-weight="700" fill="#065f46">59</tspan> (sin corte 1T/2T)   ·   Atajadas: <tspan font-weight="700" fill="#c8102e">1</tspan> vs <tspan font-weight="700" fill="#065f46">3</tspan></text>
+</svg>
